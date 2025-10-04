@@ -110,9 +110,9 @@ const FeaturedTreatments = () => {
                 {/* CTA Buttons */}
                 <div className="space-y-2">
                   <Button variant="luxury" size="sm" className="w-full" asChild>
-                    <Link to="/booking">
+                    <a href="https://wa.me/27684984179?text=Hi! I'd like to book a spa treatment." target="_blank" rel="noopener noreferrer">
                       Book Now
-                    </Link>
+                    </a>
                   </Button>
                   <Button variant="elegant" size="sm" className="w-full" asChild>
                     <Link to={`/treatments#${treatment.id}`}>

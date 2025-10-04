@@ -106,7 +106,7 @@ const Facials = () => {
                   </div>
 
                   <Button variant="luxury" size="lg" className="w-full" asChild>
-                    <Link to="/booking">Book This Facial</Link>
+                    <a href="https://wa.me/27684984179?text=Hi! I'd like to book a facial treatment." target="_blank" rel="noopener noreferrer">Book This Facial</a>
                   </Button>
                 </CardContent>
               </Card>

@@ -130,7 +130,7 @@ const Waxing = () => {
                       <p className="text-sm font-semibold text-green-600">Save R{pkg.savings}</p>
                     </div>
                     <Button variant="luxury" className="w-full" asChild>
-                      <Link to="/booking">Book Package</Link>
+                      <a href="https://wa.me/27684984179?text=Hi! I'd like to book waxing services." target="_blank" rel="noopener noreferrer">Book Package</a>
                     </Button>
                   </CardContent>
                 </Card>
@@ -175,7 +175,7 @@ const Waxing = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="luxury" size="lg" asChild>
-                <Link to="/booking">Book Now</Link>
+                <a href="https://wa.me/27684984179?text=Hi! I'd like to book waxing services." target="_blank" rel="noopener noreferrer">Book Now</a>
               </Button>
               <Button variant="elegant" size="lg" asChild>
                 <Link to="/contact">Contact Us</Link>

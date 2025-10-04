@@ -137,7 +137,7 @@ const Packages = () => {
                   </div>
 
                   <Button variant="luxury" className="w-full" asChild>
-                    <Link to="/booking">Book This Package</Link>
+                    <a href="https://wa.me/27684984179?text=Hi! I'd like to book a spa package." target="_blank" rel="noopener noreferrer">Book This Package</a>
                   </Button>
                 </CardContent>
               </Card>

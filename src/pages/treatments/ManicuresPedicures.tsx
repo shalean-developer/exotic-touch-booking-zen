@@ -133,7 +133,7 @@ const ManicuresPedicures = () => {
                   </div>
 
                   <Button variant="luxury" size="lg" className="w-full" asChild>
-                    <Link to="/booking">Book Now</Link>
+                    <a href="https://wa.me/27684984179?text=Hi! I'd like to book nail services." target="_blank" rel="noopener noreferrer">Book Now</a>
                   </Button>
                 </CardContent>
               </Card>
@@ -157,7 +157,7 @@ const ManicuresPedicures = () => {
                       <span className="text-sm font-semibold text-green-600">Save R{combo.savings}</span>
                     </div>
                     <Button variant="luxury" size="lg" className="w-full" asChild>
-                      <Link to="/booking">Book Combo</Link>
+                      <a href="https://wa.me/27684984179?text=Hi! I'd like to book nail services." target="_blank" rel="noopener noreferrer">Book Combo</a>
                     </Button>
                   </CardContent>
                 </Card>

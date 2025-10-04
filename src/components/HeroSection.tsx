@@ -61,15 +61,15 @@ const HeroSection = () => {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4 mb-12 animate-scale-in">
           <Button variant="luxury" size="xl" asChild>
-            <Link to="/booking">
-              Book Your Treatment
-            </Link>
-          </Button>
-          <Button variant="elegant" size="xl" asChild>
             <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
               <MessageCircle className="h-5 w-5" />
-              Quick WhatsApp
+              Book Your Treatment
             </a>
+          </Button>
+          <Button variant="elegant" size="xl" asChild>
+            <Link to="/treatments">
+              View All Treatments
+            </Link>
           </Button>
         </div>
 

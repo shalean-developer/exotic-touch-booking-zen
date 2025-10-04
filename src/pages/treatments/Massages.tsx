@@ -146,7 +146,7 @@ const Massages = () => {
                   </div>
 
                   <Button variant="luxury" size="lg" className="w-full" asChild>
-                    <Link to="/booking">Book This Massage</Link>
+                    <a href="https://wa.me/27684984179?text=Hi! I'd like to book a massage treatment." target="_blank" rel="noopener noreferrer">Book This Massage</a>
                   </Button>
                 </CardContent>
               </Card>
@@ -184,7 +184,7 @@ const Massages = () => {
               <Badge variant="secondary" className="text-green-600">Save R200</Badge>
             </div>
             <Button variant="luxury" size="lg" asChild>
-              <Link to="/booking">Book Special Now</Link>
+              <a href="https://wa.me/27684984179?text=Hi! I'd like to book the Massage Special." target="_blank" rel="noopener noreferrer">Book Special Now</a>
             </Button>
           </div>
         </div>

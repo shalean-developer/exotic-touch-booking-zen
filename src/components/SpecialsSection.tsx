@@ -67,9 +67,9 @@ const SpecialsSection = () => {
                   
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button variant="luxury" size="lg" asChild>
-                      <Link to="/booking">
+                      <a href="https://wa.me/27684984179?text=Hi! I'd like to book the Massage Special." target="_blank" rel="noopener noreferrer">
                         Book This Special
-                      </Link>
+                      </a>
                     </Button>
                     <Button variant="elegant" size="lg" asChild>
                       <Link to="/specials">

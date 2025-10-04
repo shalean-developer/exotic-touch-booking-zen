@@ -161,7 +161,7 @@ const Specials = () => {
                   </div>
 
                   <Button variant={special.featured ? "luxury" : "elegant"} className="w-full" asChild>
-                    <Link to="/booking">Book Now</Link>
+                    <a href="https://wa.me/27684984179?text=Hi! I'd like to book a spa treatment." target="_blank" rel="noopener noreferrer">Book Now</a>
                   </Button>
                 </CardContent>
               </Card>
