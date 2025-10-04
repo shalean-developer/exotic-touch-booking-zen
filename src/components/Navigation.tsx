@@ -63,7 +63,7 @@ const Navigation = () => {
               </a>
             </Button>
             <Button variant="luxury" size="sm" asChild>
-              <Link to="/booking">Book Now</Link>
+              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">Book Now</a>
             </Button>
           </div>
 
@@ -102,9 +102,9 @@ const Navigation = () => {
                     </a>
                   </Button>
                   <Button variant="luxury" size="sm" asChild className="w-full">
-                    <Link to="/booking" onClick={() => setIsOpen(false)}>
+                    <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>
                       Book Now
-                    </Link>
+                    </a>
                   </Button>
                 </div>
               </div>
