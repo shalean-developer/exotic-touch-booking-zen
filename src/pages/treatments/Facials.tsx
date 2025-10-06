@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import WhatsAppStrip from "@/components/WhatsAppStrip";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Link } from "react-router-dom";
@@ -36,8 +37,15 @@ const Facials = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background">
-      <Navigation />
+    <>
+      <SEO
+        title="Professional Facial Treatments at Home"
+        description="Luxury facial treatments delivered to you in Cape Town. Superficial, deep cleanse & anti-aging facials. Professional skincare from R550. Book your facial today!"
+        keywords="mobile facial Cape Town, home facial treatment, deep cleanse facial, anti-aging facial, skincare treatment, beauty therapist Cape Town"
+        canonicalUrl="/treatments/facials"
+      />
+      <div className="min-h-screen bg-background">
+        <Navigation />
       
       {/* Hero Section */}
       <section className="relative pt-24 pb-32 overflow-hidden">
@@ -153,6 +161,7 @@ const Facials = () => {
       <WhatsAppStrip />
       <Footer />
     </div>
+    </>
   );
 };
 

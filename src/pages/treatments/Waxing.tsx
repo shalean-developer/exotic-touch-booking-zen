@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import WhatsAppStrip from "@/components/WhatsAppStrip";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
@@ -69,8 +70,15 @@ const Waxing = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background">
-      <Navigation />
+    <>
+      <SEO
+        title="Professional Waxing Services at Home"
+        description="Mobile waxing services in Cape Town. Brazilian, Hollywood, bikini, leg & face waxing from R100. Professional hair removal at your convenience. Book today!"
+        keywords="mobile waxing Cape Town, Brazilian wax at home, Hollywood wax, bikini wax, leg waxing, eyebrow wax, waxing service Cape Town"
+        canonicalUrl="/treatments/waxing"
+      />
+      <div className="min-h-screen bg-background">
+        <Navigation />
       
       {/* Hero Section */}
       <section className="pt-24 pb-16 bg-gradient-soft">
@@ -185,9 +193,10 @@ const Waxing = () => {
         </div>
       </section>
 
-      <WhatsAppStrip />
-      <Footer />
-    </div>
+        <WhatsAppStrip />
+        <Footer />
+      </div>
+    </>
   );
 };
 

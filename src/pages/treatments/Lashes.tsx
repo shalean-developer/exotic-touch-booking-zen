@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import WhatsAppStrip from "@/components/WhatsAppStrip";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -60,8 +61,15 @@ const Lashes = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background">
-      <Navigation />
+    <>
+      <SEO
+        title="Lash Extensions Cape Town | Mobile Lash Technician"
+        description="Professional lash extensions at home in Cape Town. Classic, hybrid, volume & mega volume lashes from R450. Expert mobile lash artist. Book your lash appointment today!"
+        keywords="lash extensions Cape Town, mobile lash technician, classic lashes, volume lashes, hybrid lashes, eyelash extensions at home, lash artist Cape Town"
+        canonicalUrl="/treatments/lashes"
+      />
+      <div className="min-h-screen bg-background">
+        <Navigation />
       
       {/* Hero Section */}
       <section className="pt-24 pb-16 bg-gradient-soft">
@@ -220,9 +228,10 @@ const Lashes = () => {
         </div>
       </section>
 
-      <WhatsAppStrip />
-      <Footer />
-    </div>
+        <WhatsAppStrip />
+        <Footer />
+      </div>
+    </>
   );
 };
 

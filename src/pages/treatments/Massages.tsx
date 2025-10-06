@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import WhatsAppStrip from "@/components/WhatsAppStrip";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -64,8 +65,15 @@ const Massages = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background">
-      <Navigation />
+    <>
+      <SEO
+        title="Mobile Massage Therapy Cape Town"
+        description="Professional massage treatments at your doorstep. Swedish, deep tissue, hot stone & pregnancy massage. From R450. Book your relaxing massage in Cape Town today!"
+        keywords="mobile massage Cape Town, home massage service, Swedish massage, deep tissue massage, hot stone massage, pregnancy massage, massage therapist Cape Town"
+        canonicalUrl="/treatments/massages"
+      />
+      <div className="min-h-screen bg-background">
+        <Navigation />
       
       {/* Hero Section */}
       <section className="relative pt-24 pb-32 overflow-hidden">
@@ -190,9 +198,10 @@ const Massages = () => {
         </div>
       </section>
 
-      <WhatsAppStrip />
-      <Footer />
-    </div>
+        <WhatsAppStrip />
+        <Footer />
+      </div>
+    </>
   );
 };
 

@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import WhatsAppStrip from "@/components/WhatsAppStrip";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -79,8 +80,15 @@ const Packages = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background">
-      <Navigation />
+    <>
+      <SEO
+        title="Spa Package Deals Cape Town"
+        description="Special spa packages for couples, bridal parties & groups in Cape Town. From R2,500. Custom packages available. Book your memorable spa experience today!"
+        keywords="spa packages Cape Town, couples spa package, bridal shower spa, corporate wellness, group spa booking, spa deals Cape Town"
+        canonicalUrl="/packages"
+      />
+      <div className="min-h-screen bg-background">
+        <Navigation />
       
       {/* Hero Section */}
       <section className="pt-24 pb-16 bg-gradient-soft">
@@ -160,9 +168,10 @@ const Packages = () => {
         </div>
       </section>
 
-      <WhatsAppStrip />
-      <Footer />
-    </div>
+        <WhatsAppStrip />
+        <Footer />
+      </div>
+    </>
   );
 };
 

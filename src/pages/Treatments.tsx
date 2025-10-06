@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import WhatsAppStrip from "@/components/WhatsAppStrip";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
@@ -53,8 +54,15 @@ const Treatments = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background">
-      <Navigation />
+    <>
+      <SEO
+        title="All Spa Treatments & Services Cape Town"
+        description="Browse our full range of mobile spa treatments in Cape Town. Massages, facials, nails, waxing & lashes from R150. Professional beauty services delivered to you."
+        keywords="spa treatments Cape Town, mobile spa services, beauty treatments at home, spa menu Cape Town, professional spa services"
+        canonicalUrl="/treatments"
+      />
+      <div className="min-h-screen bg-background">
+        <Navigation />
       
       {/* Hero Section */}
       <section className="pt-24 pb-16 bg-gradient-soft">
@@ -142,6 +150,7 @@ const Treatments = () => {
       <WhatsAppStrip />
       <Footer />
     </div>
+    </>
   );
 };
 

@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import WhatsAppStrip from "@/components/WhatsAppStrip";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -90,8 +91,15 @@ const Specials = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background">
-      <Navigation />
+    <>
+      <SEO
+        title="Spa Specials & Deals Cape Town"
+        description="Current spa specials in Cape Town! Save up to 20% on massages, facials & packages. First-time client discount, group bookings & birthday specials. Book now!"
+        keywords="spa specials Cape Town, spa deals, mobile spa discounts, massage special, first time client discount, birthday spa offer"
+        canonicalUrl="/specials"
+      />
+      <div className="min-h-screen bg-background">
+        <Navigation />
       
       {/* Hero Section */}
       <section className="pt-24 pb-16 bg-gradient-soft">
@@ -183,9 +191,10 @@ const Specials = () => {
         </div>
       </section>
 
-      <WhatsAppStrip />
-      <Footer />
-    </div>
+        <WhatsAppStrip />
+        <Footer />
+      </div>
+    </>
   );
 };
 

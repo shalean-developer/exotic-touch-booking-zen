@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import WhatsAppStrip from "@/components/WhatsAppStrip";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Link } from "react-router-dom";
@@ -71,8 +72,15 @@ const ManicuresPedicures = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background">
-      <Navigation />
+    <>
+      <SEO
+        title="Manicures & Pedicures at Home Cape Town"
+        description="Professional mobile nail services in Cape Town. Gel manicures from R350, deluxe pedicures, medi heel treatments & nail art. Book your home nail service today!"
+        keywords="mobile manicure Cape Town, home pedicure service, gel nails at home, medi heel treatment, nail art Cape Town, mobile nail technician"
+        canonicalUrl="/treatments/manicures-pedicures"
+      />
+      <div className="min-h-screen bg-background">
+        <Navigation />
       
       {/* Hero Section */}
       <section className="relative pt-24 pb-32 overflow-hidden">
@@ -177,9 +185,10 @@ const ManicuresPedicures = () => {
         </div>
       </section>
 
-      <WhatsAppStrip />
-      <Footer />
-    </div>
+        <WhatsAppStrip />
+        <Footer />
+      </div>
+    </>
   );
 };
 

@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import WhatsAppStrip from "@/components/WhatsAppStrip";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -60,8 +61,15 @@ const Events = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background">
-      <Navigation />
+    <>
+      <SEO
+        title="Spa Events & Group Bookings"
+        description="Perfect for bridal parties, corporate wellness, birthdays & special occasions. Book mobile spa treatments for groups in Cape Town. Custom packages available. Request a quote today!"
+        keywords="spa events Cape Town, bridal party spa, corporate wellness, group spa bookings, hen party spa, birthday spa party"
+        canonicalUrl="/events"
+      />
+      <div className="min-h-screen bg-background">
+        <Navigation />
       
       {/* Hero Section */}
       <section className="pt-24 pb-16 bg-gradient-soft">
@@ -207,9 +215,10 @@ const Events = () => {
         </div>
       </section>
 
-      <WhatsAppStrip />
-      <Footer />
-    </div>
+        <WhatsAppStrip />
+        <Footer />
+      </div>
+    </>
   );
 };
 
