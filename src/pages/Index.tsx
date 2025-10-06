@@ -7,6 +7,7 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import WhatsAppStrip from "@/components/WhatsAppStrip";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
+import SpecialModal from "@/components/SpecialModal";
 
 const Index = () => {
   return (
@@ -26,6 +27,7 @@ const Index = () => {
         <TestimonialsSection />
         <WhatsAppStrip />
         <Footer />
+        <SpecialModal showOnPages={["home"]} />
       </div>
     </>
   );
