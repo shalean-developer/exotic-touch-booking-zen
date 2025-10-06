@@ -12,7 +12,7 @@ const ManicuresPedicures = () => {
     {
       name: "Gel Overlay Manicure",
       description: "Long-lasting gel polish application over natural nails with shaping and cuticle care.",
-      price: 500,
+      price: 350,
       duration: 60,
       includes: ["Nail shaping & filing", "Cuticle treatment", "Hand massage", "Gel polish application", "Quick-dry finish"]
     },
