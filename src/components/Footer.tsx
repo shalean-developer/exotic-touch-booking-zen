@@ -112,7 +112,15 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="border-t border-background/20 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="text-background/60 mb-4 md:mb-0">
-            © 2024 Exotic Touch Mobile Spa. All rights reserved.
+            © 2025 Exotic Touch Mobile Spa. All rights reserved. | Website Design By{" "}
+            <a 
+              href="https://wa.me/27685886831" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-primary transition-colors"
+            >
+              Chitsweb
+            </a>.
           </div>
           
           <div className="flex space-x-6 text-sm">
