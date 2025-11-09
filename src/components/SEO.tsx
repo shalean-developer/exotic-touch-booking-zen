@@ -33,6 +33,18 @@ const SEO = ({ title, description, keywords, canonicalUrl, ogImage = "/favicon.p
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={ogImage} />
+
+      {/* Geo-location tags for local SEO */}
+      <meta name="geo.region" content="ZA-WC" />
+      <meta name="geo.placename" content="Cape Town" />
+      <meta name="geo.position" content="-33.9249;18.4241" />
+      <meta name="ICBM" content="-33.9249, 18.4241" />
+      
+      {/* Local business tags */}
+      <meta name="coverage" content="Cape Town, Western Cape, South Africa" />
+      <meta name="distribution" content="local" />
+      <meta name="target" content="all" />
+      <meta name="audience" content="all" />
     </Helmet>
   );
 };
