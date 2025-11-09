@@ -7,6 +7,7 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import WhatsAppStrip from "@/components/WhatsAppStrip";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
+import StructuredData from "@/components/StructuredData";
 import SpecialModal from "@/components/SpecialModal";
 
 const Index = () => {
@@ -18,6 +19,7 @@ const Index = () => {
         keywords="mobile spa Cape Town, home spa service, massage at home, mobile beauty treatments, luxury spa Cape Town, same day spa booking"
         canonicalUrl="/"
       />
+      <StructuredData />
       <div className="min-h-screen">
         <Navigation />
         <HeroSection />
