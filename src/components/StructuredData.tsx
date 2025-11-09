@@ -6,10 +6,10 @@ const StructuredData = () => {
     "@type": "BeautySalon",
     "name": "Exotic Touch Mobile Spa",
     "description": "Luxury mobile spa treatments in Cape Town. Professional massages, facials, manicures, pedicures, waxing, and lash services delivered to your doorstep.",
-    "url": "https://exotictouchspa.com",
+    "url": "https://exotictmspa.co.za",
     "telephone": "+27684984179",
     "priceRange": "R350-R1500",
-    "image": "https://exotictouchspa.com/favicon.png",
+    "image": "https://exotictmspa.co.za/favicon.png",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Cape Town",

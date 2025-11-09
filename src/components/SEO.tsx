@@ -10,7 +10,7 @@ interface SEOProps {
 
 const SEO = ({ title, description, keywords, canonicalUrl, ogImage = "/favicon.png" }: SEOProps) => {
   const fullTitle = `${title} | Exotic Touch Mobile Spa`;
-  const baseUrl = "https://exotictouchspa.com";
+  const baseUrl = "https://exotictmspa.co.za";
   const fullCanonicalUrl = canonicalUrl ? `${baseUrl}${canonicalUrl}` : baseUrl;
 
   return (

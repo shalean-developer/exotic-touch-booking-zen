@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://exotictouchspa.com/sitemap.xml
+Sitemap: https://exotictmspa.co.za/sitemap.xml
