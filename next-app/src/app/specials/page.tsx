@@ -10,8 +10,11 @@ import { Badge } from "@/components/ui/badge";
 import { Gift, Clock, Sparkles, Calendar } from "lucide-react";
 import { useQuery } from "@tanstack/react-query";
 import { supabase } from "@/integrations/supabase/client";
+import type { Database } from "@/integrations/supabase/types";
 
 export const dynamic = 'force-dynamic';
+
+type Special = Database['public']['Tables']['specials']['Row'];
 
 export default function SpecialsPage() {
   const { data: specialsData, isLoading } = useQuery({
@@ -68,7 +71,7 @@ export default function SpecialsPage() {
             </div>
           ) : (
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-              {specialsData.map((special, index) => (
+              {specialsData.map((special: Special, index: number) => (
                 <Card 
                   key={special.id} 
                   className={`luxury-card border-luxury relative overflow-hidden transition-luxury hover:-translate-y-1 ${index === 0 ? 'ring-2 ring-primary md:col-span-2 lg:col-span-3' : ''}`}
