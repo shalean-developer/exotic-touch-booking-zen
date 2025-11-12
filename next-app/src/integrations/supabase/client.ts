@@ -8,9 +8,25 @@ const SUPABASE_PUBLISHABLE_KEY = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KE
 // Import the supabase client like this:
 // import { supabase } from "@/integrations/supabase/client";
 
+// Create a safe storage adapter that works in both server and client environments
+const getStorage = () => {
+  if (typeof window !== 'undefined') {
+    return localStorage;
+  }
+  // Return a no-op storage for server-side rendering
+  return {
+    getItem: () => null,
+    setItem: () => {},
+    removeItem: () => {},
+    clear: () => {},
+    get length() { return 0; },
+    key: () => null,
+  };
+};
+
 export const supabase = createClient<Database>(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY, {
   auth: {
-    storage: localStorage,
+    storage: getStorage(),
     persistSession: true,
     autoRefreshToken: true,
   }

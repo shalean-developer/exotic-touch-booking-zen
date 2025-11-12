@@ -11,6 +11,8 @@ import { Gift, Clock, Sparkles, Calendar } from "lucide-react";
 import { useQuery } from "@tanstack/react-query";
 import { supabase } from "@/integrations/supabase/client";
 
+export const dynamic = 'force-dynamic';
+
 export default function SpecialsPage() {
   const { data: specialsData, isLoading } = useQuery({
     queryKey: ["specials"],
