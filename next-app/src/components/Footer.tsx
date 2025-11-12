@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { MapPin, Phone, MessageCircle, Clock, Mail } from "lucide-react";
 
 const Footer = () => {
@@ -32,15 +31,14 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="mb-6">
               <Link href="/" className="inline-block mb-4">
-                <Image
-                  src="/logo.png"
-                  alt="Exotic Touch Mobile Spa"
-                  width={180}
-                  height={60}
-                  className="h-12 w-auto"
-                />
+                <div className="text-3xl font-heading font-bold text-background">
+                  Exotic Touch
+                </div>
+                <div className="text-sm text-background/70 mt-1">
+                  Mobile Spa
+                </div>
               </Link>
-              <p className="text-background/80 leading-relaxed">
+              <p className="text-background/80 leading-relaxed mt-4">
                 Bringing luxury spa treatments directly to your location across Cape Town and surrounds. 
                 Professional, convenient, and utterly relaxing.
               </p>
