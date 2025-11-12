@@ -82,14 +82,16 @@ export default function SpecialsPage() {
                   
                   <CardContent className="space-y-6">
                     <div className="flex items-center gap-4">
-                      {special.discount_cents && special.discount_cents > 0 && (
+                      {special.price_cents && special.discount_cents && special.discount_cents > 0 && (
                         <div className="text-lg text-muted-foreground line-through">
                           {formatPrice(special.price_cents + special.discount_cents)}
                         </div>
                       )}
-                      <div className="text-4xl font-bold text-primary">
-                        {formatPrice(special.price_cents)}
-                      </div>
+                      {special.price_cents && (
+                        <div className="text-4xl font-bold text-primary">
+                          {formatPrice(special.price_cents)}
+                        </div>
+                      )}
                       {special.discount_cents && special.discount_cents > 0 && (
                         <Badge variant="secondary" className="text-green-600">
                           Save {formatPrice(special.discount_cents)}
