@@ -36,7 +36,11 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   icons: {
-    icon: "/favicon.png",
+    icon: [
+      { url: "/logo.png", type: "image/png", sizes: "any" },
+      { url: "/favicon.png", type: "image/png", sizes: "any" },
+    ],
+    shortcut: "/logo.png",
     apple: "/apple-touch-icon.png",
   },
   manifest: "/site.webmanifest",
@@ -83,8 +87,8 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/favicon.png" type="image/png" />
-        <link rel="shortcut icon" href="/favicon.png" type="image/png" />
+        <link rel="icon" href="/logo.png" type="image/png" />
+        <link rel="shortcut icon" href="/logo.png" type="image/png" />
         <StructuredData />
       </head>
       <body className={`${inter.variable} ${playfair.variable} font-body antialiased`}>
