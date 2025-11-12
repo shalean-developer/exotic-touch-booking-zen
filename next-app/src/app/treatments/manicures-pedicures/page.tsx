@@ -81,7 +81,7 @@ export default function ManicuresPedicuresPage() {
       <section className="relative pt-24 pb-32 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-soft" />
         <div className="absolute inset-0">
-          <Image src={nailsImg} alt="Nails" className="w-full h-full object-cover opacity-10" fill />
+          <Image src={nailsImg} alt="Professional manicure and pedicure nail care services in Cape Town" className="w-full h-full object-cover opacity-10" fill />
         </div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">

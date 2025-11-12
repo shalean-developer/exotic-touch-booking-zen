@@ -11,6 +11,21 @@ export const metadata: Metadata = {
     title: "Spa Packages | Exotic Touch Mobile Spa",
     description: "Specially curated spa experiences for couples, groups, and special occasions. Book your package today.",
     url: "https://exotictmspa.co.za/packages",
+    images: [
+      {
+        url: "/hero-spa.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Spa packages for couples and groups in Cape Town",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Spa Packages | Exotic Touch Mobile Spa",
+    description: "Specially curated spa experiences for couples, groups, and special occasions.",
+    images: ["/hero-spa.jpg"],
   },
 };
 

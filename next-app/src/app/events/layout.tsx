@@ -11,6 +11,21 @@ export const metadata: Metadata = {
     title: "Events & Groups | Exotic Touch Mobile Spa",
     description: "Transform your special occasion into an unforgettable spa experience. Book your event today.",
     url: "https://exotictmspa.co.za/events",
+    images: [
+      {
+        url: "/hero-spa.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Spa events and group packages in Cape Town",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Events & Groups | Exotic Touch Mobile Spa",
+    description: "Transform your special occasion into an unforgettable spa experience.",
+    images: ["/hero-spa.jpg"],
   },
 };
 

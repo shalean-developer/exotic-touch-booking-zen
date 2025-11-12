@@ -11,6 +11,21 @@ export const metadata: Metadata = {
     title: "Massage Treatments | Exotic Touch Mobile Spa",
     description: "Professional therapeutic massages delivered to your doorstep in Cape Town. Book your massage today.",
     url: "https://exotictmspa.co.za/treatments/massages",
+    images: [
+      {
+        url: "/massage-treatment.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Professional massage treatments in Cape Town",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Massage Treatments | Exotic Touch Mobile Spa",
+    description: "Professional therapeutic massages delivered to your doorstep in Cape Town.",
+    images: ["/massage-treatment.jpg"],
   },
 };
 

@@ -11,6 +11,21 @@ export const metadata: Metadata = {
     title: "Facial Treatments | Exotic Touch Mobile Spa",
     description: "Rejuvenate your skin with professional facial treatments delivered to your location in Cape Town.",
     url: "https://exotictmspa.co.za/treatments/facials",
+    images: [
+      {
+        url: "/facial-treatment.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Professional facial treatments in Cape Town",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Facial Treatments | Exotic Touch Mobile Spa",
+    description: "Rejuvenate your skin with professional facial treatments in Cape Town.",
+    images: ["/facial-treatment.jpg"],
   },
 };
 

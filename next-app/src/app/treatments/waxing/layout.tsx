@@ -11,6 +11,21 @@ export const metadata: Metadata = {
     title: "Waxing Services | Exotic Touch Mobile Spa",
     description: "Professional hair removal services delivered to your location in Cape Town. Smooth, silky skin guaranteed.",
     url: "https://exotictmspa.co.za/treatments/waxing",
+    images: [
+      {
+        url: "/hero-spa.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Professional waxing services in Cape Town",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Waxing Services | Exotic Touch Mobile Spa",
+    description: "Professional hair removal services delivered to your location in Cape Town.",
+    images: ["/hero-spa.jpg"],
   },
 };
 
