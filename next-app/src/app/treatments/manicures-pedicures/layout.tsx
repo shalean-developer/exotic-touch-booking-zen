@@ -43,6 +43,10 @@ export default function ManicuresPedicuresLayout({
           { name: "Treatments", url: "/treatments" },
           { name: "Manicures & Pedicures", url: "/treatments/manicures-pedicures" },
         ]}
+        pageType="ItemPage"
+        pageName="Manicures & Pedicures | Professional Nail Care in Cape Town"
+        pageDescription="Pamper your hands and feet with expert nail care services. Gel overlays, deluxe treatments, and nail art available. Mobile service in Cape Town. Book your appointment."
+        pageUrl="/treatments/manicures-pedicures"
         serviceType="Nail Care Service"
         serviceName="Professional Manicure & Pedicure Services"
         serviceDescription="Gel overlays, deluxe treatments, and nail art delivered to your location in Cape Town"

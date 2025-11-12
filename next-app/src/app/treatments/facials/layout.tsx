@@ -43,6 +43,10 @@ export default function FacialsLayout({
           { name: "Treatments", url: "/treatments" },
           { name: "Facials", url: "/treatments/facials" },
         ]}
+        pageType="ItemPage"
+        pageName="Facial Treatments | Professional Skincare in Cape Town"
+        pageDescription="Rejuvenate your skin with our professional facial treatments. Superficial, Deep Cleanse, and Anti-Aging facials available. Mobile service in Cape Town. Book now."
+        pageUrl="/treatments/facials"
         serviceType="Facial Treatment"
         serviceName="Professional Facial Treatments"
         serviceDescription="Superficial, Deep Cleanse, and Anti-Aging facials delivered to your location in Cape Town"

@@ -1,7 +1,28 @@
 import Script from "next/script";
 
 const StructuredData = () => {
-  const structuredData = {
+  // WebSite schema
+  const websiteData = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://exotictmspa.co.za/#website",
+    name: "Exotic Touch Mobile Spa",
+    url: "https://exotictmspa.co.za",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: "https://exotictmspa.co.za/search?q={search_term_string}",
+      },
+      "query-input": "required name=search_term_string",
+    },
+    publisher: {
+      "@id": "https://exotictmspa.co.za/#organization",
+    },
+  };
+
+  // Organization schema (BeautySalon)
+  const organizationData = {
     "@context": "https://schema.org",
     "@type": "BeautySalon",
     "@id": "https://exotictmspa.co.za/#organization",
@@ -127,12 +148,17 @@ const StructuredData = () => {
     }
   };
 
+  // Combine all structured data
+  const allStructuredData = [websiteData, organizationData];
+
   return (
-    <Script
-      id="structured-data"
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-    />
+    <>
+      <Script
+        id="structured-data"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(allStructuredData) }}
+      />
+    </>
   );
 };
 

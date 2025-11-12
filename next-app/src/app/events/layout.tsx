@@ -42,6 +42,10 @@ export default function EventsLayout({
           { name: "Home", url: "/" },
           { name: "Events", url: "/events" },
         ]}
+        pageType="CollectionPage"
+        pageName="Events & Groups | Corporate Wellness, Bridal Parties & More"
+        pageDescription="Transform your special occasion into an unforgettable spa experience. Corporate wellness, bridal parties, birthday celebrations, and group events. Mobile spa service in Cape Town."
+        pageUrl="/events"
       />
       {children}
     </>

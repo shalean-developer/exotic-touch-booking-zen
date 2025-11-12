@@ -12,6 +12,10 @@ interface PageStructuredDataProps {
   serviceDescription?: string;
   servicePrice?: string;
   serviceImage?: string;
+  pageType?: "WebPage" | "AboutPage" | "ContactPage" | "CollectionPage" | "ItemPage";
+  pageName?: string;
+  pageDescription?: string;
+  pageUrl?: string;
 }
 
 const PageStructuredData = ({
@@ -21,8 +25,38 @@ const PageStructuredData = ({
   serviceDescription,
   servicePrice,
   serviceImage,
+  pageType = "WebPage",
+  pageName,
+  pageDescription,
+  pageUrl,
 }: PageStructuredDataProps) => {
   const structuredDataArray: object[] = [];
+
+  // Add WebPage schema for all pages
+  const webPageData: any = {
+    "@context": "https://schema.org",
+    "@type": pageType,
+    "@id": pageUrl ? `https://exotictmspa.co.za${pageUrl}#webpage` : undefined,
+    url: pageUrl ? `https://exotictmspa.co.za${pageUrl}` : "https://exotictmspa.co.za",
+    name: pageName,
+    description: pageDescription,
+    inLanguage: "en-ZA",
+    isPartOf: {
+      "@id": "https://exotictmspa.co.za/#website",
+    },
+    about: {
+      "@id": "https://exotictmspa.co.za/#organization",
+    },
+  };
+
+  // Remove undefined fields
+  Object.keys(webPageData).forEach((key) => {
+    if (webPageData[key] === undefined) {
+      delete webPageData[key];
+    }
+  });
+
+  structuredDataArray.push(webPageData);
 
   // Add BreadcrumbList if breadcrumbs are provided
   if (breadcrumbs && breadcrumbs.length > 0) {

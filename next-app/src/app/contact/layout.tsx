@@ -42,6 +42,10 @@ export default function ContactLayout({
           { name: "Home", url: "/" },
           { name: "Contact", url: "/contact" },
         ]}
+        pageType="ContactPage"
+        pageName="Contact Us | Book Your Mobile Spa Treatment"
+        pageDescription="Get in touch with Exotic Touch Mobile Spa. Book your treatment via WhatsApp, phone, or contact form. Serving Cape Town & surrounds. Call +27 68 498 4179."
+        pageUrl="/contact"
       />
       {children}
     </>

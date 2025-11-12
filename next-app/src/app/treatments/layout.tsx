@@ -42,6 +42,10 @@ export default function TreatmentsLayout({
           { name: "Home", url: "/" },
           { name: "Treatments", url: "/treatments" },
         ]}
+        pageType="CollectionPage"
+        pageName="Spa Treatments | Massages, Facials, Nails & More"
+        pageDescription="Discover our range of professional mobile spa treatments in Cape Town. Massages, facials, manicures, pedicures, waxing, and lash extensions. All delivered to your location."
+        pageUrl="/treatments"
       />
       {children}
     </>

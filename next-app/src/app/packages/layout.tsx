@@ -42,6 +42,10 @@ export default function PackagesLayout({
           { name: "Home", url: "/" },
           { name: "Packages", url: "/packages" },
         ]}
+        pageType="CollectionPage"
+        pageName="Spa Packages | Couples Retreat, Bridal Packages & More"
+        pageDescription="Specially curated spa experiences for couples, groups, and special occasions. Couples Retreat, Bridal Shower, Corporate Wellness, and Pamper Party packages available in Cape Town."
+        pageUrl="/packages"
       />
       {children}
     </>

@@ -43,6 +43,10 @@ export default function WaxingLayout({
           { name: "Treatments", url: "/treatments" },
           { name: "Waxing", url: "/treatments/waxing" },
         ]}
+        pageType="ItemPage"
+        pageName="Waxing Services | Professional Hair Removal in Cape Town"
+        pageDescription="Professional hair removal services for smooth, silky skin. Face, body, and bikini waxing available. Mobile service in Cape Town. Book your appointment today."
+        pageUrl="/treatments/waxing"
         serviceType="Hair Removal Service"
         serviceName="Professional Waxing Services"
         serviceDescription="Face, body, and bikini waxing services delivered to your location in Cape Town"

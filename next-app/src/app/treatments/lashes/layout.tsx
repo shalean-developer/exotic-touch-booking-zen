@@ -43,6 +43,10 @@ export default function LashesLayout({
           { name: "Treatments", url: "/treatments" },
           { name: "Lash Extensions", url: "/treatments/lashes" },
         ]}
+        pageType="ItemPage"
+        pageName="Lash Extensions | Classic, Hybrid, Volume & Mega Volume Lashes"
+        pageDescription="Enhance your natural beauty with stunning lash extensions. Classic, Hybrid, Volume, and Mega Volume options available. Mobile service in Cape Town. Book your appointment."
+        pageUrl="/treatments/lashes"
         serviceType="Beauty Service"
         serviceName="Lash Extension Services"
         serviceDescription="Classic, Hybrid, Volume, and Mega Volume lash extensions delivered to your location in Cape Town"

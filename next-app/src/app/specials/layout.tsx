@@ -42,6 +42,10 @@ export default function SpecialsLayout({
           { name: "Home", url: "/" },
           { name: "Specials", url: "/specials" },
         ]}
+        pageType="CollectionPage"
+        pageName="Current Specials | Exclusive Spa Deals & Offers"
+        pageDescription="Exclusive offers and limited-time deals for the ultimate spa experience. Check out our current specials on massages, facials, and spa packages in Cape Town."
+        pageUrl="/specials"
       />
       {children}
     </>

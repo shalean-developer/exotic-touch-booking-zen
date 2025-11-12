@@ -7,6 +7,7 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import WhatsAppStrip from "@/components/WhatsAppStrip";
 import Footer from "@/components/Footer";
 import SpecialModal from "@/components/SpecialModal";
+import PageStructuredData from "@/components/PageStructuredData";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -43,6 +44,15 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <div className="min-h-screen">
+      <PageStructuredData
+        breadcrumbs={[
+          { name: "Home", url: "/" },
+        ]}
+        pageType="WebPage"
+        pageName="Exotic Touch Mobile Spa | Luxury Mobile Spa Treatments in Cape Town"
+        pageDescription="Experience professional mobile spa services delivered to your home in Cape Town. Massages, facials, manicures, pedicures, waxing & lashes. Same-day bookings available."
+        pageUrl="/"
+      />
       <Navigation />
       <HeroSection />
       <HowItWorksSection />

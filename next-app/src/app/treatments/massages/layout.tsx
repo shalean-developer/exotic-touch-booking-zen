@@ -43,6 +43,10 @@ export default function MassagesLayout({
           { name: "Treatments", url: "/treatments" },
           { name: "Massages", url: "/treatments/massages" },
         ]}
+        pageType="ItemPage"
+        pageName="Massage Treatments | Swedish, Deep Tissue, Hot Stone & More"
+        pageDescription="Professional therapeutic massages delivered to your doorstep in Cape Town. Swedish, Deep Tissue, Hot Stone, and Pregnancy massages available. Book online or call +27 68 498 4179."
+        pageUrl="/treatments/massages"
         serviceType="Massage Therapy"
         serviceName="Professional Massage Treatments"
         serviceDescription="Swedish, Deep Tissue, Hot Stone, and Pregnancy massages delivered to your location in Cape Town"
