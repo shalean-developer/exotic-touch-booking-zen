@@ -15,7 +15,7 @@ const StructuredData = () => {
       "https://exotictmspa.co.za/massage-treatment.jpg",
       "https://exotictmspa.co.za/facial-treatment.jpg"
     ],
-    "logo": "https://exotictmspa.co.za/favicon.png",
+    "logo": "https://exotictmspa.co.za/logo.png",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Cape Town",

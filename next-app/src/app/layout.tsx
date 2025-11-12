@@ -35,6 +35,20 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+  icons: {
+    icon: [
+      { url: "/favicon.png", sizes: "any" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+    other: [
+      { rel: "mask-icon", url: "/safari-pinned-tab.svg", color: "#000000" },
+    ],
+  },
+  manifest: "/site.webmanifest",
   openGraph: {
     type: "website",
     locale: "en_ZA",
@@ -44,10 +58,10 @@ export const metadata: Metadata = {
     description: "Experience professional mobile spa services delivered to your home in Cape Town.",
     images: [
       {
-        url: "/favicon.png",
+        url: "/logo.png",
         width: 1200,
         height: 630,
-        alt: "Exotic Touch Mobile Spa",
+        alt: "Exotic Touch Mobile Spa Logo",
       },
     ],
   },
@@ -55,7 +69,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Exotic Touch Mobile Spa | Luxury Mobile Spa Treatments in Cape Town",
     description: "Experience professional mobile spa services delivered to your home in Cape Town.",
-    images: ["/favicon.png"],
+    images: ["/logo.png"],
   },
   robots: {
     index: true,
