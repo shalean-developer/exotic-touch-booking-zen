@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     canonical: "/treatments/waxing",
   },
   openGraph: {
-    title: "Waxing Services | Exotic Touch Mobile Spa",
+    title: "Waxing Services | Exotic Touch",
     description: "Professional hair removal services delivered to your location in Cape Town. Smooth, silky skin guaranteed.",
     url: "https://exotictmspa.co.za/treatments/waxing",
     images: [
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Waxing Services | Exotic Touch Mobile Spa",
+    title: "Waxing Services | Exotic Touch",
     description: "Professional hair removal services delivered to your location in Cape Town.",
     images: ["/hero-spa.jpg"],
   },

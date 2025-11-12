@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     canonical: "/specials",
   },
   openGraph: {
-    title: "Current Specials | Exotic Touch Mobile Spa",
+    title: "Current Specials | Exotic Touch",
     description: "Exclusive offers and limited-time deals for the ultimate spa experience. Don't miss out!",
     url: "https://exotictmspa.co.za/specials",
     images: [
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Current Specials | Exotic Touch Mobile Spa",
+    title: "Current Specials | Exotic Touch",
     description: "Exclusive offers and limited-time deals for the ultimate spa experience.",
     images: ["/hero-spa.jpg"],
   },

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     canonical: "/treatments/manicures-pedicures",
   },
   openGraph: {
-    title: "Manicures & Pedicures | Exotic Touch Mobile Spa",
+    title: "Manicures & Pedicures | Exotic Touch",
     description: "Professional nail care services delivered to your location in Cape Town. Gel overlays, deluxe treatments, and more.",
     url: "https://exotictmspa.co.za/treatments/manicures-pedicures",
     images: [
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Manicures & Pedicures | Exotic Touch Mobile Spa",
+    title: "Manicures & Pedicures | Exotic Touch",
     description: "Professional nail care services delivered to your location in Cape Town.",
     images: ["/nails-treatment.jpg"],
   },

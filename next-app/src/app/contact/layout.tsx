@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     canonical: "/contact",
   },
   openGraph: {
-    title: "Contact Us | Exotic Touch Mobile Spa",
+    title: "Contact Us | Exotic Touch",
     description: "Get in touch to book your mobile spa treatment. We'd love to create your perfect spa experience.",
     url: "https://exotictmspa.co.za/contact",
     images: [
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact Us | Exotic Touch Mobile Spa",
+    title: "Contact Us | Exotic Touch",
     description: "Get in touch to book your mobile spa treatment.",
     images: ["/hero-spa.jpg"],
   },

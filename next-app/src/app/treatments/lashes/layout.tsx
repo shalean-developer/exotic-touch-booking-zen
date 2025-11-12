@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import PageStructuredData from "@/components/PageStructuredData";
 
 export const metadata: Metadata = {
-  title: "Lash Extensions | Classic, Hybrid, Volume & Mega Volume Lashes",
+  title: "Lash Extensions | Classic, Hybrid & Volume Lashes",
   description: "Enhance your natural beauty with stunning lash extensions. Classic, Hybrid, Volume, and Mega Volume options available. Mobile service in Cape Town. Book your appointment.",
   keywords: ["lash extensions Cape Town", "eyelash extensions", "classic lashes", "volume lashes", "hybrid lashes", "mega volume lashes", "mobile lash service"],
   alternates: {
     canonical: "/treatments/lashes",
   },
   openGraph: {
-    title: "Lash Extensions | Exotic Touch Mobile Spa",
+    title: "Lash Extensions | Exotic Touch",
     description: "Wake up with perfect lashes every day. Professional lash extensions delivered to your location in Cape Town.",
     url: "https://exotictmspa.co.za/treatments/lashes",
     images: [
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Lash Extensions | Exotic Touch Mobile Spa",
+    title: "Lash Extensions | Exotic Touch",
     description: "Wake up with perfect lashes every day. Professional lash extensions in Cape Town.",
     images: ["/hero-spa.jpg"],
   },
@@ -44,7 +44,7 @@ export default function LashesLayout({
           { name: "Lash Extensions", url: "/treatments/lashes" },
         ]}
         pageType="ItemPage"
-        pageName="Lash Extensions | Classic, Hybrid, Volume & Mega Volume Lashes"
+        pageName="Lash Extensions | Classic, Hybrid & Volume Lashes"
         pageDescription="Enhance your natural beauty with stunning lash extensions. Classic, Hybrid, Volume, and Mega Volume options available. Mobile service in Cape Town. Book your appointment."
         pageUrl="/treatments/lashes"
         serviceType="Beauty Service"

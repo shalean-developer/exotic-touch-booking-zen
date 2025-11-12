@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     canonical: "/treatments/facials",
   },
   openGraph: {
-    title: "Facial Treatments | Exotic Touch Mobile Spa",
+    title: "Facial Treatments | Exotic Touch",
     description: "Rejuvenate your skin with professional facial treatments delivered to your location in Cape Town.",
     url: "https://exotictmspa.co.za/treatments/facials",
     images: [
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Facial Treatments | Exotic Touch Mobile Spa",
+    title: "Facial Treatments | Exotic Touch",
     description: "Rejuvenate your skin with professional facial treatments in Cape Town.",
     images: ["/facial-treatment.jpg"],
   },

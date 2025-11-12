@@ -18,8 +18,8 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: {
-    default: "Exotic Touch Mobile Spa | Luxury Mobile Spa Treatments in Cape Town",
-    template: "%s | Exotic Touch Mobile Spa",
+    default: "Mobile Spa Treatments in Cape Town | Exotic Touch",
+    template: "%s | Exotic Touch",
   },
   description: "Professional mobile spa services delivered to your home in Cape Town. Massages, facials, manicures, pedicures, waxing & lashes. Same-day bookings available.",
   keywords: ["mobile spa Cape Town", "home spa service", "massage at home", "mobile beauty treatments", "luxury spa Cape Town", "same day spa booking"],
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     locale: "en_ZA",
     url: "https://exotictmspa.co.za",
     siteName: "Exotic Touch Mobile Spa",
-    title: "Exotic Touch Mobile Spa | Luxury Mobile Spa Treatments in Cape Town",
+    title: "Mobile Spa Treatments in Cape Town | Exotic Touch",
     description: "Professional mobile spa services delivered to your home in Cape Town. Massages, facials, manicures, pedicures, waxing & lashes.",
     images: [
       {
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Exotic Touch Mobile Spa | Luxury Mobile Spa Treatments in Cape Town",
+    title: "Mobile Spa Treatments in Cape Town | Exotic Touch",
     description: "Professional mobile spa services delivered to your home in Cape Town. Massages, facials, manicures, pedicures, waxing & lashes.",
     images: ["/logo.png"],
   },
