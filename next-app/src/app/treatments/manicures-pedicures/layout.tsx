@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import PageStructuredData from "@/components/PageStructuredData";
 
 export const metadata: Metadata = {
   title: "Manicures & Pedicures | Professional Nail Care in Cape Town",
@@ -34,6 +35,22 @@ export default function ManicuresPedicuresLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return children;
+  return (
+    <>
+      <PageStructuredData
+        breadcrumbs={[
+          { name: "Home", url: "/" },
+          { name: "Treatments", url: "/treatments" },
+          { name: "Manicures & Pedicures", url: "/treatments/manicures-pedicures" },
+        ]}
+        serviceType="Nail Care Service"
+        serviceName="Professional Manicure & Pedicure Services"
+        serviceDescription="Gel overlays, deluxe treatments, and nail art delivered to your location in Cape Town"
+        servicePrice="350"
+        serviceImage="/nails-treatment.jpg"
+      />
+      {children}
+    </>
+  );
 }
 

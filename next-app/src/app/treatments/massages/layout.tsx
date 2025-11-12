@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import PageStructuredData from "@/components/PageStructuredData";
 
 export const metadata: Metadata = {
   title: "Massage Treatments | Swedish, Deep Tissue, Hot Stone & More",
@@ -34,6 +35,22 @@ export default function MassagesLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return children;
+  return (
+    <>
+      <PageStructuredData
+        breadcrumbs={[
+          { name: "Home", url: "/" },
+          { name: "Treatments", url: "/treatments" },
+          { name: "Massages", url: "/treatments/massages" },
+        ]}
+        serviceType="Massage Therapy"
+        serviceName="Professional Massage Treatments"
+        serviceDescription="Swedish, Deep Tissue, Hot Stone, and Pregnancy massages delivered to your location in Cape Town"
+        servicePrice="650"
+        serviceImage="/massage-treatment.jpg"
+      />
+      {children}
+    </>
+  );
 }
 

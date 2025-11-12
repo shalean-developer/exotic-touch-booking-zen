@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import PageStructuredData from "@/components/PageStructuredData";
 
 export const metadata: Metadata = {
   title: "Waxing Services | Professional Hair Removal in Cape Town",
@@ -34,6 +35,22 @@ export default function WaxingLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return children;
+  return (
+    <>
+      <PageStructuredData
+        breadcrumbs={[
+          { name: "Home", url: "/" },
+          { name: "Treatments", url: "/treatments" },
+          { name: "Waxing", url: "/treatments/waxing" },
+        ]}
+        serviceType="Hair Removal Service"
+        serviceName="Professional Waxing Services"
+        serviceDescription="Face, body, and bikini waxing services delivered to your location in Cape Town"
+        servicePrice="150"
+        serviceImage="/hero-spa.jpg"
+      />
+      {children}
+    </>
+  );
 }
 

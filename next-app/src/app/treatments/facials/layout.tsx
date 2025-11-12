@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import PageStructuredData from "@/components/PageStructuredData";
 
 export const metadata: Metadata = {
   title: "Facial Treatments | Professional Skincare in Cape Town",
@@ -34,6 +35,22 @@ export default function FacialsLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return children;
+  return (
+    <>
+      <PageStructuredData
+        breadcrumbs={[
+          { name: "Home", url: "/" },
+          { name: "Treatments", url: "/treatments" },
+          { name: "Facials", url: "/treatments/facials" },
+        ]}
+        serviceType="Facial Treatment"
+        serviceName="Professional Facial Treatments"
+        serviceDescription="Superficial, Deep Cleanse, and Anti-Aging facials delivered to your location in Cape Town"
+        servicePrice="500"
+        serviceImage="/facial-treatment.jpg"
+      />
+      {children}
+    </>
+  );
 }
 

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import PageStructuredData from "@/components/PageStructuredData";
 
 export const metadata: Metadata = {
   title: "Lash Extensions | Classic, Hybrid, Volume & Mega Volume Lashes",
@@ -34,6 +35,22 @@ export default function LashesLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return children;
+  return (
+    <>
+      <PageStructuredData
+        breadcrumbs={[
+          { name: "Home", url: "/" },
+          { name: "Treatments", url: "/treatments" },
+          { name: "Lash Extensions", url: "/treatments/lashes" },
+        ]}
+        serviceType="Beauty Service"
+        serviceName="Lash Extension Services"
+        serviceDescription="Classic, Hybrid, Volume, and Mega Volume lash extensions delivered to your location in Cape Town"
+        servicePrice="450"
+        serviceImage="/hero-spa.jpg"
+      />
+      {children}
+    </>
+  );
 }
 

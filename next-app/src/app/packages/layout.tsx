@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import PageStructuredData from "@/components/PageStructuredData";
 
 export const metadata: Metadata = {
   title: "Spa Packages | Couples Retreat, Bridal Packages & More",
@@ -34,6 +35,16 @@ export default function PackagesLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return children;
+  return (
+    <>
+      <PageStructuredData
+        breadcrumbs={[
+          { name: "Home", url: "/" },
+          { name: "Packages", url: "/packages" },
+        ]}
+      />
+      {children}
+    </>
+  );
 }
 
