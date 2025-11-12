@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
@@ -32,14 +31,9 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <Image
-              src="/logo.png"
-              alt="Exotic Touch Mobile Spa"
-              width={140}
-              height={140}
-              className="h-12 w-12 object-contain"
-              priority
-            />
+            <div className="text-2xl font-heading font-bold text-gradient-primary">
+              Exotic Touch
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
