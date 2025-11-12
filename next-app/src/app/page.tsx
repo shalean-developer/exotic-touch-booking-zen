@@ -12,14 +12,14 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Luxury Mobile Spa Treatments in Cape Town",
-  description: "Experience professional mobile spa services delivered to your home in Cape Town. Massages, facials, manicures, pedicures, waxing & lashes. Same-day bookings available. Call +27 68 498 4179",
+  description: "Professional mobile spa services delivered to your home in Cape Town. Massages, facials, manicures, pedicures, waxing & lashes. Same-day bookings available.",
   keywords: ["mobile spa Cape Town", "home spa service", "massage at home", "mobile beauty treatments", "luxury spa Cape Town", "same day spa booking", "mobile spa treatments", "spa at home Cape Town"],
   alternates: {
     canonical: "/",
   },
   openGraph: {
     title: "Exotic Touch Mobile Spa | Luxury Mobile Spa Treatments in Cape Town",
-    description: "Experience professional mobile spa services delivered to your home in Cape Town. Massages, facials, manicures, pedicures, waxing & lashes. Same-day bookings available.",
+    description: "Professional mobile spa services delivered to your home in Cape Town. Massages, facials, manicures, pedicures, waxing & lashes. Same-day bookings available.",
     url: "https://exotictmspa.co.za",
     siteName: "Exotic Touch Mobile Spa",
     images: [
@@ -50,7 +50,7 @@ export default function HomePage() {
         ]}
         pageType="WebPage"
         pageName="Exotic Touch Mobile Spa | Luxury Mobile Spa Treatments in Cape Town"
-        pageDescription="Experience professional mobile spa services delivered to your home in Cape Town. Massages, facials, manicures, pedicures, waxing & lashes. Same-day bookings available."
+        pageDescription="Professional mobile spa services delivered to your home in Cape Town. Massages, facials, manicures, pedicures, waxing & lashes. Same-day bookings available."
         pageUrl="/"
       />
       <Navigation />

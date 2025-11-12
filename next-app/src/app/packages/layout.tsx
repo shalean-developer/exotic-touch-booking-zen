@@ -3,7 +3,7 @@ import PageStructuredData from "@/components/PageStructuredData";
 
 export const metadata: Metadata = {
   title: "Spa Packages | Couples Retreat, Bridal Packages & More",
-  description: "Specially curated spa experiences for couples, groups, and special occasions. Couples Retreat, Bridal Shower, Corporate Wellness, and Pamper Party packages available in Cape Town.",
+  description: "Specially curated spa experiences for couples, groups, and special occasions. Couples Retreat, Bridal Shower, Corporate Wellness packages in Cape Town.",
   keywords: ["spa packages Cape Town", "couples spa", "bridal shower package", "corporate wellness", "pamper party", "group spa packages"],
   alternates: {
     canonical: "/packages",
@@ -44,7 +44,7 @@ export default function PackagesLayout({
         ]}
         pageType="CollectionPage"
         pageName="Spa Packages | Couples Retreat, Bridal Packages & More"
-        pageDescription="Specially curated spa experiences for couples, groups, and special occasions. Couples Retreat, Bridal Shower, Corporate Wellness, and Pamper Party packages available in Cape Town."
+        pageDescription="Specially curated spa experiences for couples, groups, and special occasions. Couples Retreat, Bridal Shower, Corporate Wellness packages in Cape Town."
         pageUrl="/packages"
       />
       {children}

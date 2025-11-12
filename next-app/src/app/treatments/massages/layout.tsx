@@ -3,7 +3,7 @@ import PageStructuredData from "@/components/PageStructuredData";
 
 export const metadata: Metadata = {
   title: "Massage Treatments | Swedish, Deep Tissue, Hot Stone & More",
-  description: "Professional therapeutic massages delivered to your doorstep in Cape Town. Swedish, Deep Tissue, Hot Stone, and Pregnancy massages available. Book online or call +27 68 498 4179.",
+  description: "Professional therapeutic massages delivered to your doorstep in Cape Town. Swedish, Deep Tissue, Hot Stone, and Pregnancy massages available. Book now.",
   keywords: ["massage Cape Town", "mobile massage", "Swedish massage", "deep tissue massage", "hot stone massage", "pregnancy massage", "therapeutic massage"],
   alternates: {
     canonical: "/treatments/massages",
@@ -45,7 +45,7 @@ export default function MassagesLayout({
         ]}
         pageType="ItemPage"
         pageName="Massage Treatments | Swedish, Deep Tissue, Hot Stone & More"
-        pageDescription="Professional therapeutic massages delivered to your doorstep in Cape Town. Swedish, Deep Tissue, Hot Stone, and Pregnancy massages available. Book online or call +27 68 498 4179."
+        pageDescription="Professional therapeutic massages delivered to your doorstep in Cape Town. Swedish, Deep Tissue, Hot Stone, and Pregnancy massages available. Book now."
         pageUrl="/treatments/massages"
         serviceType="Massage Therapy"
         serviceName="Professional Massage Treatments"

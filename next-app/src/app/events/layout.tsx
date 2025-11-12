@@ -3,7 +3,7 @@ import PageStructuredData from "@/components/PageStructuredData";
 
 export const metadata: Metadata = {
   title: "Events & Groups | Corporate Wellness, Bridal Parties & More",
-  description: "Transform your special occasion into an unforgettable spa experience. Corporate wellness, bridal parties, birthday celebrations, and group events. Mobile spa service in Cape Town.",
+  description: "Transform your special occasion into an unforgettable spa experience. Corporate wellness, bridal parties, birthday celebrations, and group events in Cape Town.",
   keywords: ["corporate wellness Cape Town", "bridal party spa", "group spa events", "birthday spa party", "mobile spa events", "corporate massage"],
   alternates: {
     canonical: "/events",
@@ -44,7 +44,7 @@ export default function EventsLayout({
         ]}
         pageType="CollectionPage"
         pageName="Events & Groups | Corporate Wellness, Bridal Parties & More"
-        pageDescription="Transform your special occasion into an unforgettable spa experience. Corporate wellness, bridal parties, birthday celebrations, and group events. Mobile spa service in Cape Town."
+        pageDescription="Transform your special occasion into an unforgettable spa experience. Corporate wellness, bridal parties, birthday celebrations, and group events in Cape Town."
         pageUrl="/events"
       />
       {children}
