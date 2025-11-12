@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { Providers } from "@/components/providers";
 import StructuredData from "@/components/StructuredData";
@@ -92,6 +93,18 @@ export default function RootLayout({
         <StructuredData />
       </head>
       <body className={`${inter.variable} ${playfair.variable} font-body antialiased`}>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-ZP4QW8VH5W"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-ZP4QW8VH5W');
+          `}
+        </Script>
         <Providers>{children}</Providers>
       </body>
     </html>
