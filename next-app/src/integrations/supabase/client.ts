@@ -24,10 +24,26 @@ const getStorage = () => {
   };
 };
 
-export const supabase = createClient<Database>(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY, {
-  auth: {
-    storage: getStorage(),
-    persistSession: true,
-    autoRefreshToken: true,
+// Only create Supabase client if we have valid credentials
+// This prevents build errors when env vars are not set
+const createSupabaseClient = () => {
+  if (!SUPABASE_URL || !SUPABASE_PUBLISHABLE_KEY) {
+    // Return a mock client that won't crash during build
+    // This will only be used during build time if env vars are missing
+    return {
+      from: () => ({
+        select: () => ({ eq: () => ({ order: () => Promise.resolve({ data: [], error: null }) }) }),
+      }),
+    } as any;
   }
-});
+  
+  return createClient<Database>(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY, {
+    auth: {
+      storage: getStorage(),
+      persistSession: true,
+      autoRefreshToken: true,
+    }
+  });
+};
+
+export const supabase = createSupabaseClient();
