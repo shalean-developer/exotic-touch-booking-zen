@@ -83,6 +83,8 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <link rel="icon" href="/favicon.png" type="image/png" />
+        <link rel="shortcut icon" href="/favicon.png" type="image/png" />
         <StructuredData />
       </head>
       <body className={`${inter.variable} ${playfair.variable} font-body antialiased`}>
