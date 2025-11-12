@@ -10,7 +10,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { Clock, Check, Sparkles } from "lucide-react";
 import massageImg from "@/assets/massage-treatment.jpg";
-import type { Metadata } from "next";
 
 export default function MassagesPage() {
   const massages = [
