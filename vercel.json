@@ -1,5 +1,6 @@
 {
   "buildCommand": "cd next-app && npm install --legacy-peer-deps && npm run build",
-  "installCommand": "cd next-app && npm install --legacy-peer-deps"
+  "installCommand": "cd next-app && npm install --legacy-peer-deps",
+  "outputDirectory": "next-app/.next"
 }
 
