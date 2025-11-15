@@ -34,7 +34,7 @@ export default function PrivacyPolicyPage() {
                   <section className="mb-8">
                     <h2 className="text-2xl font-heading font-bold mb-4">1. Introduction</h2>
                     <p className="text-muted-foreground mb-4">
-                      Exotic Touch Mobile Spa ("we", "our", or "us") is committed to protecting your privacy. 
+                      Exotic Touch Mobile Spa (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;) is committed to protecting your privacy. 
                       This Privacy Policy explains how we collect, use, disclose, and safeguard your information 
                       when you visit our website or use our services.
                     </p>
@@ -138,7 +138,7 @@ export default function PrivacyPolicyPage() {
                   </section>
 
                   <section className="mb-8">
-                    <h2 className="text-2xl font-heading font-bold mb-4">9. Children's Privacy</h2>
+                    <h2 className="text-2xl font-heading font-bold mb-4">9. Children&apos;s Privacy</h2>
                     <p className="text-muted-foreground mb-4">
                       Our services are not directed to individuals under the age of 18. We do not knowingly collect 
                       personal information from children.
@@ -149,7 +149,7 @@ export default function PrivacyPolicyPage() {
                     <h2 className="text-2xl font-heading font-bold mb-4">10. Changes to This Privacy Policy</h2>
                     <p className="text-muted-foreground mb-4">
                       We may update this Privacy Policy from time to time. We will notify you of any changes by 
-                      posting the new Privacy Policy on this page and updating the "Last updated" date.
+                      posting the new Privacy Policy on this page and updating the &ldquo;Last updated&rdquo; date.
                     </p>
                   </section>
 

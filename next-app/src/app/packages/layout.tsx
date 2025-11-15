@@ -6,7 +6,15 @@ export const metadata: Metadata = {
   description: "Specially curated spa experiences for couples, groups, and special occasions. Couples Retreat, Bridal Shower, Corporate Wellness packages in Cape Town.",
   keywords: ["spa packages Cape Town", "couples spa", "bridal shower package", "corporate wellness", "pamper party", "group spa packages"],
   alternates: {
-    canonical: "/packages",
+    canonical: "https://exotictmspa.co.za/packages",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
   openGraph: {
     title: "Spa Packages | Exotic Touch",

@@ -34,7 +34,7 @@ const createSupabaseClient = () => {
       from: () => ({
         select: () => ({ eq: () => ({ order: () => Promise.resolve({ data: [], error: null }) }) }),
       }),
-    } as any;
+    } as unknown as ReturnType<typeof createClient<Database>>;
   }
   
   return createClient<Database>(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY, {

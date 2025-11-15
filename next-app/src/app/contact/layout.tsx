@@ -6,7 +6,15 @@ export const metadata: Metadata = {
   description: "Get in touch with Exotic Touch Mobile Spa. Book your treatment via WhatsApp, phone, or contact form. Serving Cape Town & surrounds. Call +27 68 498 4179.",
   keywords: ["contact mobile spa", "book spa treatment", "spa booking Cape Town", "WhatsApp booking", "spa contact"],
   alternates: {
-    canonical: "/contact",
+    canonical: "https://exotictmspa.co.za/contact",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
   openGraph: {
     title: "Contact Us | Exotic Touch",

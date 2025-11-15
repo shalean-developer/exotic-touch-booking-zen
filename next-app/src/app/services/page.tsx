@@ -6,7 +6,7 @@ import WhatsAppStrip from "@/components/WhatsAppStrip";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Link from "next/link";
-import { Sparkles, Heart, Award, Clock, MapPin, Users } from "lucide-react";
+import { Sparkles, Award, Clock, MapPin } from "lucide-react";
 
 export default function ServicesPage() {
   const services = [
@@ -96,7 +96,7 @@ export default function ServicesPage() {
             {services.map((service, idx) => (
               <Card key={idx} className="luxury-card border-luxury flex flex-col hover:shadow-luxury transition-luxury hover:-translate-y-1">
                 <CardContent className="p-6 flex flex-col flex-grow">
-                  <h3 className="text-2xl font-heading font-bold mb-3">{service.name}</h3>
+                  <h2 className="text-2xl font-heading font-bold mb-3">{service.name}</h2>
                   <p className="text-muted-foreground mb-4 flex-grow">{service.description}</p>
                   <div className="mb-4">
                     <ul className="space-y-2">
@@ -130,7 +130,7 @@ export default function ServicesPage() {
                     <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
                       <benefit.icon className="h-6 w-6 text-primary" />
                     </div>
-                    <h3 className="font-semibold text-lg mb-2">{benefit.title}</h3>
+                    <h4 className="font-semibold text-lg mb-2">{benefit.title}</h4>
                     <p className="text-sm text-muted-foreground">{benefit.description}</p>
                   </CardContent>
                 </Card>
@@ -160,7 +160,7 @@ export default function ServicesPage() {
                   ))}
                 </div>
                 <p className="text-muted-foreground mt-6 text-center text-sm">
-                  Don't see your area? <a href="/contact" className="text-primary hover:underline">Contact us</a> to inquire about service availability.
+                  Don&apos;t see your area? <a href="/contact" className="text-primary hover:underline">Contact us</a> to inquire about service availability.
                 </p>
               </CardContent>
             </Card>

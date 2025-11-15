@@ -6,7 +6,15 @@ export const metadata: Metadata = {
   description: "Luxury mobile spa services in Newlands. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location.",
   keywords: ["mobile spa Newlands", "spa Newlands", "massage Newlands", "home spa Newlands"],
   alternates: {
-    canonical: "/locations/newlands",
+    canonical: "https://exotictmspa.co.za/locations/newlands",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
   openGraph: {
     title: "Mobile Spa in Newlands | Exotic Touch",

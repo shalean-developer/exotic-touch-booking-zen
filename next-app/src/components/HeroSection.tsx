@@ -16,7 +16,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 z-0">
         <Image 
           src={heroImage} 
-          alt="Luxury mobile spa treatment" 
+          alt="Luxury mobile spa treatment at home in Cape Town - professional massage, facial, and beauty services" 
           fill
           className="object-cover opacity-20"
           priority

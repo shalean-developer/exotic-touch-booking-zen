@@ -12,6 +12,8 @@ type ToasterToast = ToastProps & {
   action?: ToastActionElement;
 };
 
+// actionTypes is used as a type via ActionType
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const actionTypes = {
   ADD_TOAST: "ADD_TOAST",
   UPDATE_TOAST: "UPDATE_TOAST",

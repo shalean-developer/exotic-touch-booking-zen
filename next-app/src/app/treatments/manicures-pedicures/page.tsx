@@ -101,6 +101,7 @@ export default function ManicuresPedicuresPage() {
       {/* Services */}
       <section className="py-20 -mt-16">
         <div className="container mx-auto px-4">
+          <h2 className="text-4xl font-heading font-bold text-center mb-12">Nail Care Services</h2>
           <div className="space-y-8 max-w-5xl mx-auto">
             {services.map((service, idx) => (
               <Card key={idx} className="luxury-card border-luxury">
@@ -121,10 +122,10 @@ export default function ManicuresPedicuresPage() {
                 </CardHeader>
                 <CardContent className="space-y-6">
                   <div>
-                    <h4 className="font-semibold mb-3 flex items-center gap-2">
+                    <h3 className="font-semibold mb-3 flex items-center gap-2">
                       <Sparkles className="h-4 w-4" />
                       Includes:
-                    </h4>
+                    </h3>
                     <div className="grid md:grid-cols-2 gap-2">
                       {service.includes.map((item, i) => (
                         <div key={i} className="flex items-center gap-2">

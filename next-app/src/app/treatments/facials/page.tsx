@@ -66,6 +66,7 @@ export default function FacialsPage() {
       {/* Facial Options */}
       <section className="py-20 -mt-16">
         <div className="container mx-auto px-4">
+          <h2 className="text-4xl font-heading font-bold text-center mb-12">Available Facial Treatments</h2>
           <div className="space-y-8 max-w-5xl mx-auto">
             {facials.map((facial, idx) => (
               <Card key={idx} className="luxury-card border-luxury">
@@ -94,10 +95,10 @@ export default function FacialsPage() {
                 <CardContent className="space-y-6">
                   {/* Includes */}
                   <div>
-                    <h4 className="font-semibold mb-3 flex items-center gap-2">
+                    <h3 className="font-semibold mb-3 flex items-center gap-2">
                       <Sparkles className="h-4 w-4" />
                       Treatment Includes:
-                    </h4>
+                    </h3>
                     <div className="grid md:grid-cols-2 gap-2">
                       {facial.includes.map((item, i) => (
                         <div key={i} className="flex items-center gap-2">

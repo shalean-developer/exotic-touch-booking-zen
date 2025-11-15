@@ -6,7 +6,15 @@ export const metadata: Metadata = {
   description: "Read our privacy policy to understand how Exotic Touch Mobile Spa collects, uses, and protects your personal information.",
   keywords: ["privacy policy", "data protection", "privacy", "personal information"],
   alternates: {
-    canonical: "/privacy-policy",
+    canonical: "https://exotictmspa.co.za/privacy-policy",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
   openGraph: {
     title: "Privacy Policy | Exotic Touch",

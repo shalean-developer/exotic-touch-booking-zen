@@ -6,7 +6,15 @@ export const metadata: Metadata = {
   description: "Luxury mobile spa services in Camps Bay. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location.",
   keywords: ["mobile spa Camps Bay", "spa Camps Bay", "massage Camps Bay", "home spa Camps Bay"],
   alternates: {
-    canonical: "/locations/camps-bay",
+    canonical: "https://exotictmspa.co.za/locations/camps-bay",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
   openGraph: {
     title: "Mobile Spa in Camps Bay | Exotic Touch",

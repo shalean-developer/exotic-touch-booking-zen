@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL("https://exotictmspa.co.za"),
   alternates: {
-    canonical: "/",
+    canonical: "https://exotictmspa.co.za/",
   },
   icons: {
     icon: [

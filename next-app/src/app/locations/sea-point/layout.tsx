@@ -6,7 +6,15 @@ export const metadata: Metadata = {
   description: "Luxury mobile spa services in Sea Point. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location.",
   keywords: ["mobile spa Sea Point", "spa Sea Point", "massage Sea Point", "home spa Sea Point"],
   alternates: {
-    canonical: "/locations/sea-point",
+    canonical: "https://exotictmspa.co.za/locations/sea-point",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
   openGraph: {
     title: "Mobile Spa in Sea Point | Exotic Touch",

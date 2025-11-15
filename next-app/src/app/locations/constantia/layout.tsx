@@ -6,7 +6,15 @@ export const metadata: Metadata = {
   description: "Luxury mobile spa services in Constantia. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location.",
   keywords: ["mobile spa Constantia", "spa Constantia", "massage Constantia", "home spa Constantia"],
   alternates: {
-    canonical: "/locations/constantia",
+    canonical: "https://exotictmspa.co.za/locations/constantia",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
   openGraph: {
     title: "Mobile Spa in Constantia | Exotic Touch",

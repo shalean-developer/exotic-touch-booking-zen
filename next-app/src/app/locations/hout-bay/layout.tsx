@@ -6,7 +6,15 @@ export const metadata: Metadata = {
   description: "Luxury mobile spa services in Hout Bay. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location.",
   keywords: ["mobile spa Hout Bay", "spa Hout Bay", "massage Hout Bay", "home spa Hout Bay"],
   alternates: {
-    canonical: "/locations/hout-bay",
+    canonical: "https://exotictmspa.co.za/locations/hout-bay",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
   openGraph: {
     title: "Mobile Spa in Hout Bay | Exotic Touch",

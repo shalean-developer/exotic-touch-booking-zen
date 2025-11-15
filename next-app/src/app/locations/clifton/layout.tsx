@@ -6,7 +6,15 @@ export const metadata: Metadata = {
   description: "Luxury mobile spa services in Clifton. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location.",
   keywords: ["mobile spa Clifton", "spa Clifton", "massage Clifton", "home spa Clifton"],
   alternates: {
-    canonical: "/locations/clifton",
+    canonical: "https://exotictmspa.co.za/locations/clifton",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
   openGraph: {
     title: "Mobile Spa in Clifton | Exotic Touch",

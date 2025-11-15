@@ -6,7 +6,15 @@ export const metadata: Metadata = {
   description: "Luxury mobile spa services in Paarl. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location in the Winelands.",
   keywords: ["mobile spa Paarl", "spa Paarl", "massage Paarl", "home spa Paarl", "mobile beauty Paarl"],
   alternates: {
-    canonical: "/locations/paarl",
+    canonical: "https://exotictmspa.co.za/locations/paarl",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
   openGraph: {
     title: "Mobile Spa in Paarl | Exotic Touch",

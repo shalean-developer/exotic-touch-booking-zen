@@ -94,6 +94,7 @@ export default function MassagesPage() {
       {/* Massage Options */}
       <section className="py-20 -mt-16">
         <div className="container mx-auto px-4">
+          <h2 className="text-4xl font-heading font-bold text-center mb-12">Available Massage Types</h2>
           <div className="space-y-8 max-w-5xl mx-auto">
             {massages.map((massage, idx) => (
               <Card key={idx} className={`luxury-card border-luxury ${massage.popular ? 'ring-2 ring-primary' : ''}`}>
@@ -117,10 +118,10 @@ export default function MassagesPage() {
                 <CardContent className="space-y-6">
                   {/* Duration Options */}
                   <div>
-                    <h4 className="font-semibold mb-3 flex items-center gap-2">
+                    <h3 className="font-semibold mb-3 flex items-center gap-2">
                       <Clock className="h-4 w-4" />
                       Duration Options:
-                    </h4>
+                    </h3>
                     <div className="flex flex-wrap gap-3">
                       {massage.durations.map((duration, i) => (
                         <div key={i} className="px-4 py-2 bg-muted rounded-lg">
@@ -134,10 +135,10 @@ export default function MassagesPage() {
 
                   {/* Includes */}
                   <div>
-                    <h4 className="font-semibold mb-3 flex items-center gap-2">
+                    <h3 className="font-semibold mb-3 flex items-center gap-2">
                       <Sparkles className="h-4 w-4" />
                       Includes:
-                    </h4>
+                    </h3>
                     <div className="grid md:grid-cols-2 gap-2">
                       {massage.includes.map((item, i) => (
                         <div key={i} className="flex items-center gap-2">
@@ -179,7 +180,7 @@ export default function MassagesPage() {
           {/* Special Offer */}
           <div className="max-w-5xl mx-auto mt-8 luxury-card p-8 rounded-2xl border-luxury bg-gradient-soft text-center">
             <Badge className="mb-4 bg-primary text-primary-foreground">Limited Time Offer</Badge>
-            <h3 className="text-2xl font-heading font-bold mb-2">Massage Special</h3>
+            <h2 className="text-2xl font-heading font-bold mb-2">Massage Special</h2>
             <p className="text-lg mb-4">Swedish Massage (60 mins) + Back Scrub</p>
             <div className="flex items-center justify-center gap-4 mb-4">
               <span className="text-lg text-muted-foreground line-through">R650</span>

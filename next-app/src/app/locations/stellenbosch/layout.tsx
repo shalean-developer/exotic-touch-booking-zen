@@ -6,7 +6,15 @@ export const metadata: Metadata = {
   description: "Luxury mobile spa services in Stellenbosch. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location in the Winelands.",
   keywords: ["mobile spa Stellenbosch", "spa Stellenbosch", "massage Stellenbosch", "home spa Stellenbosch", "mobile beauty Stellenbosch"],
   alternates: {
-    canonical: "/locations/stellenbosch",
+    canonical: "https://exotictmspa.co.za/locations/stellenbosch",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
   openGraph: {
     title: "Mobile Spa in Stellenbosch | Exotic Touch",

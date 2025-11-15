@@ -70,12 +70,12 @@ export default function AboutPage() {
                     the demands of modern life often prevent people from taking time for self-care.
                   </p>
                   <p>
-                    Our solution? Bring the spa experience directly to you. Whether you're at home, in your 
+                    Our solution? Bring the spa experience directly to you. Whether you&apos;re at home, in your 
                     office, or hosting a special event, our team of professional therapists arrives fully equipped 
                     to deliver world-class spa treatments in the comfort of your chosen location.
                   </p>
                   <p>
-                    Since our inception, we've been committed to using only the finest products, maintaining 
+                    Since our inception, we&apos;ve been committed to using only the finest products, maintaining 
                     the highest standards of hygiene and professionalism, and ensuring every client receives 
                     personalized attention and care.
                   </p>

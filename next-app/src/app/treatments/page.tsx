@@ -83,7 +83,9 @@ export default function TreatmentsPage() {
                   <div className="aspect-[4/3] overflow-hidden">
                     <Image
                       src={category.image}
-                      alt={category.name}
+                      alt={`${category.name} treatments in Cape Town - ${category.description}`}
+                      width={400}
+                      height={300}
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                     />
                   </div>

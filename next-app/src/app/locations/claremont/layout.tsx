@@ -6,7 +6,15 @@ export const metadata: Metadata = {
   description: "Luxury mobile spa services in Claremont. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location.",
   keywords: ["mobile spa Claremont", "spa Claremont", "massage Claremont", "home spa Claremont"],
   alternates: {
-    canonical: "/locations/claremont",
+    canonical: "https://exotictmspa.co.za/locations/claremont",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
   openGraph: {
     title: "Mobile Spa in Claremont | Exotic Touch",

@@ -6,7 +6,15 @@ export const metadata: Metadata = {
   description: "Professional hair removal services for smooth, silky skin. Face, body, and bikini waxing available. Mobile service in Cape Town. Book your appointment today.",
   keywords: ["waxing Cape Town", "mobile waxing", "Brazilian wax", "bikini wax", "leg wax", "eyebrow wax", "professional hair removal"],
   alternates: {
-    canonical: "/treatments/waxing",
+    canonical: "https://exotictmspa.co.za/treatments/waxing",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
   openGraph: {
     title: "Waxing Services | Exotic Touch",

@@ -6,7 +6,15 @@ export const metadata: Metadata = {
   description: "Pamper your hands and feet with expert nail care services. Gel overlays, deluxe treatments, and nail art available. Mobile service in Cape Town. Book your appointment.",
   keywords: ["manicure Cape Town", "pedicure Cape Town", "gel nails", "nail art", "mobile nail service", "professional manicure", "deluxe pedicure"],
   alternates: {
-    canonical: "/treatments/manicures-pedicures",
+    canonical: "https://exotictmspa.co.za/treatments/manicures-pedicures",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
   openGraph: {
     title: "Manicures & Pedicures | Exotic Touch",

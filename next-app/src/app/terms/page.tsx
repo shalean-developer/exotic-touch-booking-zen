@@ -34,7 +34,7 @@ export default function TermsPage() {
                   <section className="mb-8">
                     <h2 className="text-2xl font-heading font-bold mb-4">1. Acceptance of Terms</h2>
                     <p className="text-muted-foreground mb-4">
-                      By accessing and using the services of Exotic Touch Mobile Spa ("we", "our", or "us"), 
+                      By accessing and using the services of Exotic Touch Mobile Spa (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;), 
                       you accept and agree to be bound by these Terms of Service. If you do not agree to these 
                       terms, please do not use our services.
                     </p>
@@ -59,7 +59,7 @@ export default function TermsPage() {
 
                     <h3 className="text-xl font-semibold mb-3">3.2 Cancellation Policy</h3>
                     <p className="text-muted-foreground mb-4">
-                      We require at least 24 hours' notice for cancellations or rescheduling. Cancellations 
+                      We require at least 24 hours&apos; notice for cancellations or rescheduling. Cancellations 
                       made less than 24 hours before the appointment may be subject to a cancellation fee 
                       of up to 50% of the service cost.
                     </p>

@@ -6,7 +6,15 @@ export const metadata: Metadata = {
   description: "Luxury mobile spa services in Bishopscourt. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location.",
   keywords: ["mobile spa Bishopscourt", "spa Bishopscourt", "massage Bishopscourt", "home spa Bishopscourt"],
   alternates: {
-    canonical: "/locations/bishopscourt",
+    canonical: "https://exotictmspa.co.za/locations/bishopscourt",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
   openGraph: {
     title: "Mobile Spa in Bishopscourt | Exotic Touch",

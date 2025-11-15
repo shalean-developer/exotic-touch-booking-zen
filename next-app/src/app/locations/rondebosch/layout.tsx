@@ -6,7 +6,15 @@ export const metadata: Metadata = {
   description: "Luxury mobile spa services in Rondebosch. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location.",
   keywords: ["mobile spa Rondebosch", "spa Rondebosch", "massage Rondebosch", "home spa Rondebosch"],
   alternates: {
-    canonical: "/locations/rondebosch",
+    canonical: "https://exotictmspa.co.za/locations/rondebosch",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
   openGraph: {
     title: "Mobile Spa in Rondebosch | Exotic Touch",

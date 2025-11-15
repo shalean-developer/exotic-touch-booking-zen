@@ -52,7 +52,7 @@ export default function StellenboschPage() {
                 <h2 className="text-3xl font-heading font-bold mb-6">Spa Services in Stellenbosch</h2>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
                   Experience the ultimate in relaxation with our professional mobile spa services in Stellenbosch. 
-                  Whether you're a local resident or visiting the beautiful Winelands, we bring luxury spa treatments 
+                  Whether you&apos;re a local resident or visiting the beautiful Winelands, we bring luxury spa treatments 
                   directly to your home, hotel, or accommodation.
                 </p>
                 <p className="text-muted-foreground mb-8 leading-relaxed">

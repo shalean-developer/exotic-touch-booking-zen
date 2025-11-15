@@ -6,7 +6,15 @@ export const metadata: Metadata = {
   description: "Exclusive offers and limited-time deals for the ultimate spa experience. Check out our current specials on massages, facials, and spa packages in Cape Town.",
   keywords: ["spa specials Cape Town", "spa deals", "spa offers", "discount spa treatments", "limited time offers", "spa promotions"],
   alternates: {
-    canonical: "/specials",
+    canonical: "https://exotictmspa.co.za/specials",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
   openGraph: {
     title: "Current Specials | Exotic Touch",

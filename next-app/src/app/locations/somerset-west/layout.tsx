@@ -6,7 +6,15 @@ export const metadata: Metadata = {
   description: "Luxury mobile spa services in Somerset West. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location.",
   keywords: ["mobile spa Somerset West", "spa Somerset West", "massage Somerset West", "home spa Somerset West"],
   alternates: {
-    canonical: "/locations/somerset-west",
+    canonical: "https://exotictmspa.co.za/locations/somerset-west",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
   openGraph: {
     title: "Mobile Spa in Somerset West | Exotic Touch",

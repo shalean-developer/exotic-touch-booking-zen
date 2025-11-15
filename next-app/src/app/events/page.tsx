@@ -108,7 +108,7 @@ export default function EventsPage() {
             <div className="text-center mb-12">
               <h2 className="text-4xl font-heading font-bold mb-4">Request a Quote</h2>
               <p className="text-lg text-muted-foreground">
-                Tell us about your event and we'll create a custom package for you
+                Tell us about your event and we&apos;ll create a custom package for you
               </p>
             </div>
 

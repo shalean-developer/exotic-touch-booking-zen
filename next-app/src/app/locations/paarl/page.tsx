@@ -56,7 +56,7 @@ export default function PaarlPage() {
                   heart of the Winelands.
                 </p>
                 <p className="text-muted-foreground mb-8 leading-relaxed">
-                  Whether you're a local resident or visiting Paarl, enjoy our full range of spa 
+                  Whether you&apos;re a local resident or visiting Paarl, enjoy our full range of spa 
                   treatments without leaving your comfort zone. We bring everything needed for a 
                   complete spa experience.
                 </p>

@@ -6,7 +6,15 @@ export const metadata: Metadata = {
   description: "Learn about Exotic Touch Mobile Spa - Cape Town's premier mobile spa service. Professional therapists bringing luxury spa treatments to your home.",
   keywords: ["about mobile spa", "mobile spa Cape Town", "spa company", "luxury spa services", "professional spa therapists"],
   alternates: {
-    canonical: "/about",
+    canonical: "https://exotictmspa.co.za/about",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
   openGraph: {
     title: "About Us | Exotic Touch",

@@ -6,7 +6,15 @@ export const metadata: Metadata = {
   description: "Read our terms of service to understand the terms and conditions for using Exotic Touch Mobile Spa services.",
   keywords: ["terms of service", "terms and conditions", "service terms", "booking terms"],
   alternates: {
-    canonical: "/terms",
+    canonical: "https://exotictmspa.co.za/terms",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
   openGraph: {
     title: "Terms of Service | Exotic Touch",

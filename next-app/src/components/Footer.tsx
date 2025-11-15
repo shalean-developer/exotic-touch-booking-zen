@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { MapPin, Phone, MessageCircle, Clock, Mail } from "lucide-react";
+import { MapPin, Phone, MessageCircle, Clock } from "lucide-react";
 
 const Footer = () => {
   const whatsappUrl = "https://wa.me/27684984179?text=Hi! I'd like to book a spa treatment.";

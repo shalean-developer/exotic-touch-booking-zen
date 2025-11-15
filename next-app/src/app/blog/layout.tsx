@@ -6,7 +6,15 @@ export const metadata: Metadata = {
   description: "Read our blog for spa tips, wellness advice, treatment guides, and updates from Exotic Touch Mobile Spa.",
   keywords: ["spa blog", "wellness tips", "spa advice", "beauty tips", "self-care", "spa treatments"],
   alternates: {
-    canonical: "/blog",
+    canonical: "https://exotictmspa.co.za/blog",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
   openGraph: {
     title: "Blog | Exotic Touch",
@@ -42,7 +50,7 @@ export default function BlogLayout({
           { name: "Home", url: "/" },
           { name: "Blog", url: "/blog" },
         ]}
-        pageType="Blog"
+        pageType="CollectionPage"
         pageName="Blog | Exotic Touch Mobile Spa"
         pageDescription="Read our blog for spa tips, wellness advice, treatment guides, and updates from Exotic Touch Mobile Spa."
         pageUrl="/blog"

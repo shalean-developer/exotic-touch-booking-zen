@@ -8,7 +8,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
-import { Mail, Phone, MapPin, Clock, MessageCircle } from "lucide-react";
+import { Phone, MapPin, Clock, MessageCircle } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 
@@ -72,7 +72,7 @@ export default function ContactPage() {
               Get in Touch
             </h1>
             <p className="text-xl text-muted-foreground">
-              We'd love to hear from you. Let's create your perfect spa experience.
+              We&apos;d love to hear from you. Let&apos;s create your perfect spa experience.
             </p>
           </div>
         </div>
@@ -117,7 +117,7 @@ export default function ContactPage() {
               <div className="mb-8">
                 <h2 className="text-3xl font-heading font-bold mb-4">Send Us a Message</h2>
                 <p className="text-muted-foreground">
-                  Fill out the form below and we'll get back to you as soon as possible.
+                  Fill out the form below and we&apos;ll get back to you as soon as possible.
                 </p>
               </div>
 

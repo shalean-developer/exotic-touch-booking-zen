@@ -6,7 +6,15 @@ export const metadata: Metadata = {
   description: "Discover our range of professional mobile spa treatments in Cape Town. Massages, facials, manicures, pedicures, waxing, and lash extensions. All delivered to your location.",
   keywords: ["spa treatments Cape Town", "mobile spa treatments", "massage therapy", "facial treatments", "manicure pedicure", "waxing services", "lash extensions"],
   alternates: {
-    canonical: "/treatments",
+    canonical: "https://exotictmspa.co.za/treatments",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
   openGraph: {
     title: "Spa Treatments | Exotic Touch",

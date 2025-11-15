@@ -6,7 +6,15 @@ export const metadata: Metadata = {
   description: "We bring luxury mobile spa treatments to locations across Cape Town and surrounds. Serving Stellenbosch, Paarl, Somerset West, Constantia, Camps Bay, Sea Point, and more.",
   keywords: ["mobile spa locations", "spa service areas", "Cape Town spa", "Stellenbosch spa", "Paarl spa", "mobile spa near me"],
   alternates: {
-    canonical: "/locations",
+    canonical: "https://exotictmspa.co.za/locations",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
   openGraph: {
     title: "Service Areas | Exotic Touch",

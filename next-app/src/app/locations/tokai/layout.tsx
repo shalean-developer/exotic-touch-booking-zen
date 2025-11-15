@@ -6,7 +6,15 @@ export const metadata: Metadata = {
   description: "Luxury mobile spa services in Tokai. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location.",
   keywords: ["mobile spa Tokai", "spa Tokai", "massage Tokai", "home spa Tokai"],
   alternates: {
-    canonical: "/locations/tokai",
+    canonical: "https://exotictmspa.co.za/locations/tokai",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
   openGraph: {
     title: "Mobile Spa in Tokai | Exotic Touch",

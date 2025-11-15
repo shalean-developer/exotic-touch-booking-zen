@@ -68,7 +68,7 @@ const FeaturedTreatments = () => {
               <div className="relative overflow-hidden">
                 <Image 
                   src={treatment.image} 
-                  alt={treatment.title}
+                  alt={`Professional ${treatment.title.toLowerCase()} service in Cape Town - ${treatment.description}`}
                   width={400}
                   height={192}
                   className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500"

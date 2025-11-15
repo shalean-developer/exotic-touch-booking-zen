@@ -6,7 +6,15 @@ export const metadata: Metadata = {
   description: "Luxury mobile spa services in Green Point. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location.",
   keywords: ["mobile spa Green Point", "spa Green Point", "massage Green Point", "home spa Green Point"],
   alternates: {
-    canonical: "/locations/green-point",
+    canonical: "https://exotictmspa.co.za/locations/green-point",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
   openGraph: {
     title: "Mobile Spa in Green Point | Exotic Touch",

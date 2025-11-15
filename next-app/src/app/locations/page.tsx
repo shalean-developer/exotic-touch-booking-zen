@@ -193,7 +193,7 @@ export default function LocationsPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center luxury-card p-12 rounded-3xl border-luxury">
             <h2 className="text-3xl font-heading font-bold mb-4">
-              Don't See Your Area?
+              Don&apos;t See Your Area?
             </h2>
             <p className="text-lg text-muted-foreground mb-8">
               We serve many areas across Cape Town and the Western Cape. Contact us to check if we service your location.

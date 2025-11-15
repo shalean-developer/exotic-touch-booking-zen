@@ -6,7 +6,15 @@ export const metadata: Metadata = {
   description: "Luxury mobile spa services in Milnerton. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location.",
   keywords: ["mobile spa Milnerton", "spa Milnerton", "massage Milnerton", "home spa Milnerton"],
   alternates: {
-    canonical: "/locations/milnerton",
+    canonical: "https://exotictmspa.co.za/locations/milnerton",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
   openGraph: {
     title: "Mobile Spa in Milnerton | Exotic Touch",

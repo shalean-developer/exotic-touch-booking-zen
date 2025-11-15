@@ -6,7 +6,15 @@ export const metadata: Metadata = {
   description: "Luxury mobile spa services in Durbanville. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location.",
   keywords: ["mobile spa Durbanville", "spa Durbanville", "massage Durbanville", "home spa Durbanville"],
   alternates: {
-    canonical: "/locations/durbanville",
+    canonical: "https://exotictmspa.co.za/locations/durbanville",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
   openGraph: {
     title: "Mobile Spa in Durbanville | Exotic Touch",

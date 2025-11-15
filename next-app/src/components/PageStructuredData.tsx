@@ -33,7 +33,7 @@ const PageStructuredData = ({
   const structuredDataArray: object[] = [];
 
   // Add WebPage schema for all pages
-  const webPageData: any = {
+  const webPageData: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": pageType,
     "@id": pageUrl ? `https://exotictmspa.co.za${pageUrl}#webpage` : undefined,
@@ -74,7 +74,7 @@ const PageStructuredData = ({
 
   // Add Service schema if service information is provided
   if (serviceType && serviceName) {
-    const serviceData: any = {
+    const serviceData: Record<string, unknown> = {
       "@context": "https://schema.org",
       "@type": "Service",
       serviceType: serviceType,

@@ -6,7 +6,15 @@ export const metadata: Metadata = {
   description: "Rejuvenate your skin with our professional facial treatments. Superficial, Deep Cleanse, and Anti-Aging facials available. Mobile service in Cape Town. Book now.",
   keywords: ["facial Cape Town", "mobile facial", "deep cleanse facial", "anti-aging facial", "skincare treatment", "professional facial"],
   alternates: {
-    canonical: "/treatments/facials",
+    canonical: "https://exotictmspa.co.za/treatments/facials",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
   openGraph: {
     title: "Facial Treatments | Exotic Touch",
