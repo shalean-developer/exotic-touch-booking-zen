@@ -47,11 +47,11 @@ const SpecialsSection = () => {
                         Regular R650
                       </div>
                       <div className="text-4xl font-bold text-primary">
-                        R450
+                        R550
                       </div>
                     </div>
                     <div className="text-2xl font-bold text-green-600">
-                      Save R200!
+                      Save R100!
                     </div>
                   </div>
                   
@@ -85,7 +85,7 @@ const SpecialsSection = () => {
                   <div className="relative">
                     <div className="w-48 h-48 bg-gradient-primary rounded-full flex items-center justify-center text-primary-foreground animate-glow">
                       <div className="text-center">
-                        <div className="text-4xl font-bold">R450</div>
+                        <div className="text-4xl font-bold">R550</div>
                         <div className="text-sm">Special Price</div>
                       </div>
                     </div>
@@ -99,20 +99,6 @@ const SpecialsSection = () => {
           </div>
         </div>
 
-        {/* Additional Offers */}
-        <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mt-12">
-          <div className="luxury-card p-6 rounded-2xl border-luxury text-center">
-            <h4 className="text-xl font-heading font-semibold mb-2">First-Time Client</h4>
-            <p className="text-muted-foreground mb-4">10% off your first booking</p>
-            <Badge variant="secondary">New clients only</Badge>
-          </div>
-          
-          <div className="luxury-card p-6 rounded-2xl border-luxury text-center">
-            <h4 className="text-xl font-heading font-semibold mb-2">Group Bookings</h4>
-            <p className="text-muted-foreground mb-4">15% off for 3+ treatments</p>
-            <Badge variant="secondary">Perfect for events</Badge>
-          </div>
-        </div>
       </div>
     </section>
   );

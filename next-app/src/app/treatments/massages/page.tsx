@@ -16,10 +16,10 @@ export default function MassagesPage() {
     {
       name: "Swedish Massage",
       description: "Classic relaxation massage using long, flowing strokes to ease tension and promote deep relaxation. Perfect for stress relief and improved circulation.",
-      basePrice: 650,
+      basePrice: 750,
       durations: [
-        { time: 60, price: 650 },
-        { time: 90, price: 900 }
+        { time: 60, price: 750 },
+        { time: 90, price: 950 }
       ],
       includes: ["Premium aromatherapy oils", "Heated towels", "Soothing music", "Full body massage"],
       popular: true
@@ -27,9 +27,9 @@ export default function MassagesPage() {
     {
       name: "Deep Tissue Massage",
       description: "Therapeutic massage targeting deeper layers of muscle tissue. Ideal for chronic aches, muscle tension, and sports injuries.",
-      basePrice: 750,
+      basePrice: 850,
       durations: [
-        { time: 60, price: 750 },
+        { time: 60, price: 850 },
         { time: 90, price: 1050 }
       ],
       includes: ["Targeted pressure techniques", "Muscle tension relief", "Sports recovery", "Hot/cold therapy"],
@@ -38,10 +38,10 @@ export default function MassagesPage() {
     {
       name: "Hot Stone Massage",
       description: "Luxurious massage using heated volcanic stones to melt away tension. The warmth penetrates deep into muscles for ultimate relaxation.",
-      basePrice: 700,
+      basePrice: 800,
       durations: [
-        { time: 75, price: 700 },
-        { time: 90, price: 950 }
+        { time: 60, price: 800 },
+        { time: 90, price: 1000 }
       ],
       includes: ["Heated volcanic stones", "Deep muscle relaxation", "Enhanced circulation", "Aromatherapy"],
       popular: false
@@ -49,10 +49,10 @@ export default function MassagesPage() {
     {
       name: "Pregnancy Massage",
       description: "Specially designed for expecting mothers to relieve pregnancy-related discomfort. Safe and soothing for all trimesters (with doctor approval).",
-      basePrice: 650,
+      basePrice: 750,
       durations: [
-        { time: 60, price: 650 },
-        { time: 75, price: 800 }
+        { time: 60, price: 750 },
+        { time: 90, price: 950 }
       ],
       includes: ["Specialized positioning", "Gentle techniques", "Swelling reduction", "Back & hip relief"],
       popular: false
@@ -175,21 +175,6 @@ export default function MassagesPage() {
                 </div>
               </CardContent>
             </Card>
-          </div>
-
-          {/* Special Offer */}
-          <div className="max-w-5xl mx-auto mt-8 luxury-card p-8 rounded-2xl border-luxury bg-gradient-soft text-center">
-            <Badge className="mb-4 bg-primary text-primary-foreground">Limited Time Offer</Badge>
-            <h2 className="text-2xl font-heading font-bold mb-2">Massage Special</h2>
-            <p className="text-lg mb-4">Swedish Massage (60 mins) + Back Scrub</p>
-            <div className="flex items-center justify-center gap-4 mb-4">
-              <span className="text-lg text-muted-foreground line-through">R650</span>
-              <span className="text-4xl font-bold text-primary">R450</span>
-              <Badge variant="secondary" className="text-green-600">Save R200</Badge>
-            </div>
-            <Button variant="luxury" size="lg" asChild>
-              <a href="https://wa.me/27684984179?text=Hi! I'd like to book the Massage Special." target="_blank" rel="noopener noreferrer">Book Special Now</a>
-            </Button>
           </div>
         </div>
       </section>

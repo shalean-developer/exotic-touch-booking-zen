@@ -82,8 +82,8 @@ const HeroSection = () => {
         <div className="luxury-card p-6 rounded-2xl border-luxury animate-fade-in inline-block">
           <p className="text-lg font-medium text-primary mb-2">✨ Current Special ✨</p>
           <p className="text-2xl font-heading font-bold mb-1">Swedish Massage + Back Scrub</p>
-          <p className="text-3xl font-bold text-primary">Only R450</p>
-          <p className="text-sm text-muted-foreground">(60 minutes • Save R200)</p>
+          <p className="text-3xl font-bold text-primary">Only R550</p>
+          <p className="text-sm text-muted-foreground">(60 minutes • Save R100)</p>
         </div>
       </div>
 

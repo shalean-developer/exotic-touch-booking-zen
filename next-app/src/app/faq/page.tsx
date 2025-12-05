@@ -84,7 +84,7 @@ export default function FAQPage() {
       questions: [
         {
           question: "What are your prices?",
-          answer: "Our prices vary by treatment type and duration. Massages start from R650, Facials from R500, Manicures/Pedicures from R500, Waxing from R150, and Lash Extensions from R450. We offer package deals and special promotions. Contact us for detailed pricing or visit our pricing page.",
+          answer: "Our prices vary by treatment type and duration. Massages start from R750, Facials from R500, Manicures/Pedicures from R500, Waxing from R150, and Lash Extensions from R450. We offer package deals and special promotions. Contact us for detailed pricing or visit our pricing page.",
         },
         {
           question: "What payment methods do you accept?",

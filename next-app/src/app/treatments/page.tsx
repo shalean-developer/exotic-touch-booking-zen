@@ -18,7 +18,7 @@ export default function TreatmentsPage() {
       name: "Massages",
       description: "Relieve stress and tension with our professional massage therapies",
       image: massageImg,
-      priceFrom: "R650",
+      priceFrom: "R750",
       treatments: ["Swedish", "Deep Tissue", "Hot Stone", "Pregnancy"]
     },
     {

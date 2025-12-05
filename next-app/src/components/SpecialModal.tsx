@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import { Sparkles, Clock, Users } from "lucide-react";
+import { Sparkles, Clock } from "lucide-react";
 
 interface SpecialModalProps {
   showOnPages?: ("home" | "specials")[];
@@ -41,7 +41,7 @@ const SpecialModal = ({ showOnPages = ["home", "specials"] }: SpecialModalProps)
   }, [showOnPages, pathname]);
 
   const handleBookNow = () => {
-    window.open("https://wa.me/27684984179?text=Hi! I'd like to book the Swedish Massage + Back Scrub special for R450.", "_blank");
+    window.open("https://wa.me/27684984179?text=Hi! I'd like to book the Swedish Massage + Back Scrub special for R550.", "_blank");
     setIsOpen(false);
   };
 
@@ -66,16 +66,11 @@ const SpecialModal = ({ showOnPages = ["home", "specials"] }: SpecialModalProps)
             </div>
             
             <div className="space-y-2">
-              <div className="text-5xl font-bold text-primary">R450</div>
+              <div className="text-5xl font-bold text-primary">R550</div>
               <div className="text-lg text-muted-foreground">
                 <Clock className="inline h-4 w-4 mr-1" />
-                60 minutes • Save R200
+                60 minutes • Save R100
               </div>
-            </div>
-
-            <div className="flex items-center justify-center gap-2 text-lg font-semibold text-primary bg-primary/10 py-3 px-6 rounded-full">
-              <Users className="h-5 w-5" />
-              <span>Available for 2 people and above</span>
             </div>
           </div>
 
@@ -98,31 +93,28 @@ const SpecialModal = ({ showOnPages = ["home", "specials"] }: SpecialModalProps)
               <AccordionContent>
                 <div className="space-y-3 text-sm text-muted-foreground pt-2">
                   <p>
-                    <strong>1. Offer Details:</strong> Swedish Massage + Back Scrub (60 minutes) for only <strong>R450 per person</strong>.
+                    <strong>1. Offer Details:</strong> Swedish Massage + Back Scrub (60 minutes) for only <strong>R550 per person</strong>.
                   </p>
                   <p>
-                    <strong>2. Minimum Booking:</strong> This special is valid for <strong>two (2) people or more per booking</strong>.
+                    <strong>2. Availability:</strong> Offer valid <strong>while slots last</strong> and subject to therapist availability.
                   </p>
                   <p>
-                    <strong>3. Availability:</strong> Offer valid <strong>while slots last</strong> and subject to therapist availability.
+                    <strong>3. Booking Requirement:</strong> Advance booking is required.
                   </p>
                   <p>
-                    <strong>4. Booking Requirement:</strong> Advance booking is required. Walk-ins are subject to availability.
+                    <strong>4. Duration:</strong> Each session is 60 minutes.
                   </p>
                   <p>
-                    <strong>5. Duration:</strong> Each session is 60 minutes.
+                    <strong>5. Location:</strong> Offer valid for <strong>Cape Town service areas</strong> covered by Exotic Touch Mobile Spa.
                   </p>
                   <p>
-                    <strong>6. Location:</strong> Offer valid for <strong>Cape Town service areas</strong> covered by Exotic Touch Mobile Spa.
+                    <strong>6. Cancellations:</strong> Cancellations within <strong>24 hours</strong> of the appointment may result in forfeiting the special rate.
                   </p>
                   <p>
-                    <strong>7. Cancellations:</strong> Cancellations within <strong>24 hours</strong> of the appointment may result in forfeiting the special rate.
+                    <strong>7. Not Combinable:</strong> This promotion cannot be used with any other discounts, vouchers, or loyalty rewards.
                   </p>
                   <p>
-                    <strong>8. Not Combinable:</strong> This promotion cannot be used with any other discounts, vouchers, or loyalty rewards.
-                  </p>
-                  <p>
-                    <strong>9. Changes:</strong> Exotic Touch Mobile Spa reserves the right to amend or withdraw this offer at any time without prior notice.
+                    <strong>8. Changes:</strong> Exotic Touch Mobile Spa reserves the right to amend or withdraw this offer at any time without prior notice.
                   </p>
                 </div>
               </AccordionContent>
