@@ -1,0 +1,10 @@
+{
+  "name": "exotictmspa",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix exotic-touch-booking-zen run dev",
+    "build": "npm --prefix exotic-touch-booking-zen run build",
+    "start": "npm --prefix exotic-touch-booking-zen run start",
+    "lint": "npm --prefix exotic-touch-booking-zen run lint"
+  }
+}
