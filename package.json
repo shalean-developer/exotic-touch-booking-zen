@@ -1,6 +1,7 @@
 {
   "name": "exotictmspa",
   "private": true,
+  "version": "1.0.0",
   "scripts": {
     "dev": "npm --prefix exotic-touch-booking-zen run dev",
     "build": "npm --prefix exotic-touch-booking-zen run build",
