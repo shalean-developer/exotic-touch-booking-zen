@@ -3,7 +3,6 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import WhatsAppStrip from "@/components/WhatsAppStrip";
-import SpecialModal from "@/components/SpecialModal";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -135,7 +134,6 @@ export default function SpecialsPage() {
 
       <WhatsAppStrip />
       <Footer />
-      <SpecialModal showOnPages={["specials"]} />
     </div>
   );
 }

@@ -6,7 +6,6 @@ import SpecialsSection from "@/components/SpecialsSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import WhatsAppStrip from "@/components/WhatsAppStrip";
 import Footer from "@/components/Footer";
-import SpecialModal from "@/components/SpecialModal";
 import PageStructuredData from "@/components/PageStructuredData";
 import type { Metadata } from "next";
 
@@ -69,7 +68,6 @@ export default function HomePage() {
       <TestimonialsSection />
       <WhatsAppStrip />
       <Footer />
-      <SpecialModal showOnPages={["home"]} />
     </div>
   );
 }
