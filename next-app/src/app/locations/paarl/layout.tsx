@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PageStructuredData from "@/components/PageStructuredData";
 
 export const metadata: Metadata = {
-  title: "Mobile Spa in Paarl | Exotic Touch",
+  title: "Mobile Spa in Paarl | Exotic Essence",
   description: "Luxury mobile spa services in Paarl. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location in the Winelands.",
   keywords: ["mobile spa Paarl", "spa Paarl", "massage Paarl", "home spa Paarl", "mobile beauty Paarl"],
   alternates: {
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Mobile Spa in Paarl | Exotic Touch",
+    title: "Mobile Spa in Paarl | Exotic Essence",
     description: "Luxury mobile spa services in Paarl. Professional treatments delivered to your location.",
     url: "https://exotictmspa.co.za/locations/paarl",
     images: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mobile Spa in Paarl | Exotic Touch",
+    title: "Mobile Spa in Paarl | Exotic Essence",
     description: "Luxury mobile spa services in Paarl.",
     images: ["/hero-spa.jpg"],
   },
@@ -52,7 +52,7 @@ export default function PaarlLayout({
           { name: "Paarl", url: "/locations/paarl" },
         ]}
         pageType="ItemPage"
-        pageName="Mobile Spa in Paarl | Exotic Touch"
+        pageName="Mobile Spa in Paarl | Exotic Essence"
         pageDescription="Luxury mobile spa services in Paarl. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location in the Winelands."
         pageUrl="/locations/paarl"
       />

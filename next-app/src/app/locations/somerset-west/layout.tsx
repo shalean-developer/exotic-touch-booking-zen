@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PageStructuredData from "@/components/PageStructuredData";
 
 export const metadata: Metadata = {
-  title: "Mobile Spa in Somerset West | Exotic Touch",
+  title: "Mobile Spa in Somerset West | Exotic Essence",
   description: "Luxury mobile spa services in Somerset West. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location.",
   keywords: ["mobile spa Somerset West", "spa Somerset West", "massage Somerset West", "home spa Somerset West"],
   alternates: {
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Mobile Spa in Somerset West | Exotic Touch",
+    title: "Mobile Spa in Somerset West | Exotic Essence",
     description: "Luxury mobile spa services in Somerset West. Professional treatments delivered to your location.",
     url: "https://exotictmspa.co.za/locations/somerset-west",
     images: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mobile Spa in Somerset West | Exotic Touch",
+    title: "Mobile Spa in Somerset West | Exotic Essence",
     description: "Luxury mobile spa services in Somerset West.",
     images: ["/hero-spa.jpg"],
   },
@@ -52,7 +52,7 @@ export default function SomersetWestLayout({
           { name: "Somerset West", url: "/locations/somerset-west" },
         ]}
         pageType="ItemPage"
-        pageName="Mobile Spa in Somerset West | Exotic Touch"
+        pageName="Mobile Spa in Somerset West | Exotic Essence"
         pageDescription="Luxury mobile spa services in Somerset West. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location."
         pageUrl="/locations/somerset-west"
       />

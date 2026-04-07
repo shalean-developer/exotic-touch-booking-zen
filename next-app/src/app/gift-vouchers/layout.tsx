@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import PageStructuredData from "@/components/PageStructuredData";
 
 export const metadata: Metadata = {
-  title: "Gift Vouchers | Spa Gift Cards Cape Town | Exotic Touch",
-  description: "Give the gift of relaxation with Exotic Touch mobile spa gift vouchers. Perfect for birthdays, anniversaries, holidays, or any special occasion. Valid for 12 months.",
+  title: "Gift Vouchers | Spa Gift Cards Cape Town | Exotic Essence",
+  description: "Give the gift of relaxation with Exotic Essence Mobile Spa gift vouchers. Perfect for birthdays, anniversaries, holidays, or any special occasion. Valid for 12 months.",
   keywords: ["spa gift voucher Cape Town", "mobile spa gift certificate", "spa gift card", "spa voucher", "gift spa treatment", "spa present Cape Town"],
   alternates: {
     canonical: "https://exotictmspa.co.za/gift-vouchers",
@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Gift Vouchers | Exotic Touch Mobile Spa",
+    title: "Gift Vouchers | Exotic Essence Mobile Spa",
     description: "Give the gift of relaxation with mobile spa gift vouchers. Perfect for any special occasion.",
     url: "https://exotictmspa.co.za/gift-vouchers",
-    siteName: "Exotic Touch Mobile Spa",
+    siteName: "Exotic Essence Mobile Spa",
     images: [
       {
         url: "/hero-spa.jpg",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gift Vouchers | Exotic Touch",
+    title: "Gift Vouchers | Exotic Essence",
     description: "Give the gift of relaxation with mobile spa gift vouchers.",
     images: ["/hero-spa.jpg"],
   },
@@ -53,7 +53,7 @@ export default function GiftVouchersLayout({
           { name: "Gift Vouchers", url: "/gift-vouchers" },
         ]}
         pageType="WebPage"
-        pageName="Gift Vouchers | Exotic Touch Mobile Spa"
+        pageName="Gift Vouchers | Exotic Essence Mobile Spa"
         pageDescription="Give the gift of relaxation with mobile spa gift vouchers. Perfect for birthdays, anniversaries, holidays, or any special occasion."
         pageUrl="/gift-vouchers"
       />

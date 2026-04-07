@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PageStructuredData from "@/components/PageStructuredData";
 
 export const metadata: Metadata = {
-  title: "Mobile Spa in Rondebosch | Exotic Touch",
+  title: "Mobile Spa in Rondebosch | Exotic Essence",
   description: "Luxury mobile spa services in Rondebosch. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location.",
   keywords: ["mobile spa Rondebosch", "spa Rondebosch", "massage Rondebosch", "home spa Rondebosch"],
   alternates: {
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Mobile Spa in Rondebosch | Exotic Touch",
+    title: "Mobile Spa in Rondebosch | Exotic Essence",
     description: "Luxury mobile spa services in Rondebosch. Professional treatments delivered to your location.",
     url: "https://exotictmspa.co.za/locations/rondebosch",
     images: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mobile Spa in Rondebosch | Exotic Touch",
+    title: "Mobile Spa in Rondebosch | Exotic Essence",
     description: "Luxury mobile spa services in Rondebosch.",
     images: ["/hero-spa.jpg"],
   },
@@ -52,7 +52,7 @@ export default function RondeboschLayout({
           { name: "Rondebosch", url: "/locations/rondebosch" },
         ]}
         pageType="ItemPage"
-        pageName="Mobile Spa in Rondebosch | Exotic Touch"
+        pageName="Mobile Spa in Rondebosch | Exotic Essence"
         pageDescription="Luxury mobile spa services in Rondebosch. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location."
         pageUrl="/locations/rondebosch"
       />

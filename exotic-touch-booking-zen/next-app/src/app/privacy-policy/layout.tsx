@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import PageStructuredData from "@/components/PageStructuredData";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Exotic Touch Mobile Spa",
-  description: "Read our privacy policy to understand how Exotic Touch Mobile Spa collects, uses, and protects your personal information.",
+  title: "Privacy Policy | Exotic Essence Mobile Spa",
+  description: "Read our privacy policy to understand how Exotic Essence Mobile Spa collects, uses, and protects your personal information.",
   keywords: ["privacy policy", "data protection", "privacy", "personal information"],
   alternates: {
     canonical: "https://exotictmspa.co.za/privacy-policy",
@@ -17,14 +17,14 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Privacy Policy | Exotic Touch",
+    title: "Privacy Policy | Exotic Essence",
     description: "Read our privacy policy to understand how we collect, use, and protect your personal information.",
     url: "https://exotictmspa.co.za/privacy-policy",
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "Privacy Policy | Exotic Touch",
+    title: "Privacy Policy | Exotic Essence",
     description: "Read our privacy policy to understand how we collect, use, and protect your personal information.",
   },
 };
@@ -42,8 +42,8 @@ export default function PrivacyPolicyLayout({
           { name: "Privacy Policy", url: "/privacy-policy" },
         ]}
         pageType="WebPage"
-        pageName="Privacy Policy | Exotic Touch Mobile Spa"
-        pageDescription="Read our privacy policy to understand how Exotic Touch Mobile Spa collects, uses, and protects your personal information."
+        pageName="Privacy Policy | Exotic Essence Mobile Spa"
+        pageDescription="Read our privacy policy to understand how Exotic Essence Mobile Spa collects, uses, and protects your personal information."
         pageUrl="/privacy-policy"
       />
       {children}

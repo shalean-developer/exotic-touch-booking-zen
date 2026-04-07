@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PageStructuredData from "@/components/PageStructuredData";
 
 export const metadata: Metadata = {
-  title: "Our Team | Professional Spa Therapists Cape Town | Exotic Touch",
+  title: "Our Team | Professional Spa Therapists Cape Town | Exotic Essence",
   description: "Meet our team of certified, professional spa therapists in Cape Town. Fully qualified experts specializing in massages, facials, nail care, waxing, and lash extensions.",
   keywords: ["spa therapists Cape Town", "certified massage therapists", "professional spa team", "qualified therapists", "spa professionals", "mobile spa therapists"],
   alternates: {
@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Our Team | Exotic Touch Mobile Spa",
+    title: "Our Team | Exotic Essence Mobile Spa",
     description: "Meet our team of certified, professional spa therapists in Cape Town.",
     url: "https://exotictmspa.co.za/team",
-    siteName: "Exotic Touch Mobile Spa",
+    siteName: "Exotic Essence Mobile Spa",
     images: [
       {
         url: "/hero-spa.jpg",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Our Team | Exotic Touch",
+    title: "Our Team | Exotic Essence",
     description: "Meet our team of certified, professional spa therapists.",
     images: ["/hero-spa.jpg"],
   },
@@ -53,7 +53,7 @@ export default function TeamLayout({
           { name: "Our Team", url: "/team" },
         ]}
         pageType="WebPage"
-        pageName="Our Team | Exotic Touch Mobile Spa"
+        pageName="Our Team | Exotic Essence Mobile Spa"
         pageDescription="Meet our team of certified, professional spa therapists in Cape Town. Fully qualified experts specializing in various spa treatments."
         pageUrl="/team"
       />

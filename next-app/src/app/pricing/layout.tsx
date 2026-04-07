@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PageStructuredData from "@/components/PageStructuredData";
 
 export const metadata: Metadata = {
-  title: "Pricing | Mobile Spa Prices Cape Town | Exotic Touch",
+  title: "Pricing | Mobile Spa Prices Cape Town | Exotic Essence",
   description: "Transparent pricing for all mobile spa treatments in Cape Town. View prices for massages, facials, manicures, pedicures, waxing, and lash extensions. Package deals available.",
   keywords: ["mobile spa prices Cape Town", "spa treatment costs", "massage prices", "facial prices", "spa pricing", "mobile spa cost", "spa service prices"],
   alternates: {
@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Pricing | Exotic Touch Mobile Spa",
+    title: "Pricing | Exotic Essence Mobile Spa",
     description: "Transparent pricing for all mobile spa treatments in Cape Town.",
     url: "https://exotictmspa.co.za/pricing",
-    siteName: "Exotic Touch Mobile Spa",
+    siteName: "Exotic Essence Mobile Spa",
     images: [
       {
         url: "/hero-spa.jpg",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pricing | Exotic Touch",
+    title: "Pricing | Exotic Essence",
     description: "Transparent pricing for all mobile spa treatments in Cape Town.",
     images: ["/hero-spa.jpg"],
   },
@@ -53,7 +53,7 @@ export default function PricingLayout({
           { name: "Pricing", url: "/pricing" },
         ]}
         pageType="WebPage"
-        pageName="Pricing | Exotic Touch Mobile Spa"
+        pageName="Pricing | Exotic Essence Mobile Spa"
         pageDescription="Transparent pricing for all mobile spa treatments in Cape Town. View prices for massages, facials, manicures, pedicures, waxing, and lash extensions."
         pageUrl="/pricing"
       />

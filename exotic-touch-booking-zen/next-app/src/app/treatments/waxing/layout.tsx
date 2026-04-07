@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Waxing Services | Exotic Touch",
+    title: "Waxing Services | Exotic Essence",
     description: "Professional hair removal services delivered to your location in Cape Town. Smooth, silky skin guaranteed.",
     url: "https://exotictmspa.co.za/treatments/waxing",
     images: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Waxing Services | Exotic Touch",
+    title: "Waxing Services | Exotic Essence",
     description: "Professional hair removal services delivered to your location in Cape Town.",
     images: ["/hero-spa.jpg"],
   },
@@ -58,7 +58,7 @@ export default function WaxingLayout({
         serviceType="Hair Removal Service"
         serviceName="Professional Waxing Services"
         serviceDescription="Face, body, and bikini waxing services delivered to your location in Cape Town"
-        servicePrice="150"
+        servicePrice="250"
         serviceImage="/hero-spa.jpg"
       />
       {children}

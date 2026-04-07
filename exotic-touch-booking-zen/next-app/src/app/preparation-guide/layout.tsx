@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PageStructuredData from "@/components/PageStructuredData";
 
 export const metadata: Metadata = {
-  title: "Preparation Guide | How to Prepare for Mobile Spa | Exotic Touch",
+  title: "Preparation Guide | How to Prepare for Mobile Spa | Exotic Essence",
   description: "Complete preparation guide for mobile spa treatments. Learn what to wear, how to prepare your space, and what to expect before your appointment in Cape Town.",
   keywords: ["spa preparation guide", "how to prepare for spa", "spa day preparation", "mobile spa prep", "what to wear spa", "spa preparation tips"],
   alternates: {
@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Preparation Guide | Exotic Touch Mobile Spa",
+    title: "Preparation Guide | Exotic Essence Mobile Spa",
     description: "Complete preparation guide for mobile spa treatments.",
     url: "https://exotictmspa.co.za/preparation-guide",
-    siteName: "Exotic Touch Mobile Spa",
+    siteName: "Exotic Essence Mobile Spa",
     images: [
       {
         url: "/hero-spa.jpg",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Preparation Guide | Exotic Touch",
+    title: "Preparation Guide | Exotic Essence",
     description: "Complete preparation guide for mobile spa treatments.",
     images: ["/hero-spa.jpg"],
   },
@@ -53,7 +53,7 @@ export default function PreparationGuideLayout({
           { name: "Preparation Guide", url: "/preparation-guide" },
         ]}
         pageType="WebPage"
-        pageName="Preparation Guide | Exotic Touch Mobile Spa"
+        pageName="Preparation Guide | Exotic Essence Mobile Spa"
         pageDescription="Complete preparation guide for mobile spa treatments. Learn what to wear, how to prepare your space, and what to expect before your appointment."
         pageUrl="/preparation-guide"
       />

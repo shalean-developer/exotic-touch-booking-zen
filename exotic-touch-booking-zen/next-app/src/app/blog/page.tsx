@@ -132,7 +132,7 @@ export default function BlogPage() {
               <CardContent className="p-12">
                 <h2 className="text-3xl font-heading font-bold mb-4">Stay Updated</h2>
                 <p className="text-muted-foreground mb-8">
-                  Subscribe to our newsletter for the latest spa tips, special offers, and wellness advice.
+                  Subscribe to our newsletter for the latest spa tips, service updates, and wellness advice.
                 </p>
                 <Button variant="luxury" size="lg" asChild>
                   <a href="https://wa.me/27684984179?text=Hi! I'd like to subscribe to your newsletter." target="_blank" rel="noopener noreferrer">

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Service Areas | Exotic Touch",
+    title: "Service Areas | Exotic Essence",
     description: "We bring luxury mobile spa treatments to locations across Cape Town and surrounds.",
     url: "https://exotictmspa.co.za/locations",
     images: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Service Areas | Exotic Touch",
+    title: "Service Areas | Exotic Essence",
     description: "We bring luxury mobile spa treatments to locations across Cape Town.",
     images: ["/hero-spa.jpg"],
   },

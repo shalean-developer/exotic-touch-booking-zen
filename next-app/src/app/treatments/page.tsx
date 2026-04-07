@@ -18,7 +18,7 @@ export default function TreatmentsPage() {
       name: "Massages",
       description: "Relieve stress and tension with our professional massage therapies",
       image: massageImg,
-      priceFrom: "R750",
+      priceFrom: "R850",
       treatments: ["Swedish", "Deep Tissue", "Hot Stone", "Pregnancy"]
     },
     {
@@ -26,7 +26,7 @@ export default function TreatmentsPage() {
       name: "Facials",
       description: "Rejuvenate your skin with luxurious facial treatments",
       image: facialImg,
-      priceFrom: "R500",
+      priceFrom: "R600",
       treatments: ["Superficial", "Deep Cleanse", "Anti-Aging"]
     },
     {
@@ -34,7 +34,7 @@ export default function TreatmentsPage() {
       name: "Manicures & Pedicures",
       description: "Pamper your hands and feet with our expert nail care",
       image: nailsImg,
-      priceFrom: "R500",
+      priceFrom: "R600",
       treatments: ["Gel Overlay", "Deluxe Mani/Pedi", "Nail Art"]
     },
     {
@@ -42,7 +42,7 @@ export default function TreatmentsPage() {
       name: "Waxing",
       description: "Professional hair removal services for smooth, silky skin",
       image: facialImg,
-      priceFrom: "R150",
+      priceFrom: "R250",
       treatments: ["Bikini", "Brazilian", "Hollywood", "Full/Half Leg"]
     },
     {
@@ -50,7 +50,7 @@ export default function TreatmentsPage() {
       name: "Lashes",
       description: "Enhance your natural beauty with stunning lash extensions",
       image: nailsImg,
-      priceFrom: "R450",
+      priceFrom: "R550",
       treatments: ["Classic", "Hybrid", "Volume", "Mega Volume"]
     }
   ];
@@ -122,7 +122,7 @@ export default function TreatmentsPage() {
       <section className="py-20 bg-gradient-soft">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-4xl font-heading font-bold mb-12">Why Choose Exotic Touch?</h2>
+            <h2 className="text-4xl font-heading font-bold mb-12">Why Choose Exotic Essence?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div>
                 <div className="text-4xl mb-4">🏡</div>

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PageStructuredData from "@/components/PageStructuredData";
 
 export const metadata: Metadata = {
-  title: "Mobile Spa in Stellenbosch | Exotic Touch",
+  title: "Mobile Spa in Stellenbosch | Exotic Essence",
   description: "Luxury mobile spa services in Stellenbosch. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location in the Winelands.",
   keywords: ["mobile spa Stellenbosch", "spa Stellenbosch", "massage Stellenbosch", "home spa Stellenbosch", "mobile beauty Stellenbosch"],
   alternates: {
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Mobile Spa in Stellenbosch | Exotic Touch",
+    title: "Mobile Spa in Stellenbosch | Exotic Essence",
     description: "Luxury mobile spa services in Stellenbosch. Professional treatments delivered to your location.",
     url: "https://exotictmspa.co.za/locations/stellenbosch",
     images: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mobile Spa in Stellenbosch | Exotic Touch",
+    title: "Mobile Spa in Stellenbosch | Exotic Essence",
     description: "Luxury mobile spa services in Stellenbosch.",
     images: ["/hero-spa.jpg"],
   },
@@ -52,7 +52,7 @@ export default function StellenboschLayout({
           { name: "Stellenbosch", url: "/locations/stellenbosch" },
         ]}
         pageType="ItemPage"
-        pageName="Mobile Spa in Stellenbosch | Exotic Touch"
+        pageName="Mobile Spa in Stellenbosch | Exotic Essence"
         pageDescription="Luxury mobile spa services in Stellenbosch. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location in the Winelands."
         pageUrl="/locations/stellenbosch"
       />

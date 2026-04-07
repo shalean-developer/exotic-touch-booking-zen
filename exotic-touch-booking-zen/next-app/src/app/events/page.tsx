@@ -11,6 +11,7 @@ import { Label } from "@/components/ui/label";
 import { Users, Briefcase, Heart, PartyPopper } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
+import { BookingFeeNotices } from "@/components/BookingFeeNotices";
 
 export default function EventsPage() {
   const { toast } = useToast();
@@ -20,6 +21,7 @@ export default function EventsPage() {
     phone: "",
     eventDate: "",
     location: "",
+    preferredStartTime: "",
     groupSize: "",
     message: ""
   });
@@ -30,7 +32,16 @@ export default function EventsPage() {
       title: "Enquiry Submitted!",
       description: "We'll contact you within 24 hours to discuss your event."
     });
-    setFormData({ name: "", email: "", phone: "", eventDate: "", location: "", groupSize: "", message: "" });
+    setFormData({
+      name: "",
+      email: "",
+      phone: "",
+      eventDate: "",
+      location: "",
+      preferredStartTime: "",
+      groupSize: "",
+      message: ""
+    });
   };
 
   const eventTypes = [
@@ -44,7 +55,7 @@ export default function EventsPage() {
       icon: Heart,
       title: "Bridal Parties",
       description: "Make the bride's special day even more memorable with luxury spa treatments",
-      features: ["Bridal shower packages", "Hen party specials", "Pre-wedding pampering", "Group discounts"]
+      features: ["Bridal shower packages", "Hen party pampering", "Pre-wedding treatments", "Group coordination"]
     },
     {
       icon: PartyPopper,
@@ -162,15 +173,29 @@ export default function EventsPage() {
                     </div>
                   </div>
 
+                  <div className="space-y-2">
+                    <Label htmlFor="location">Location *</Label>
+                    <Input
+                      id="location"
+                      required
+                      value={formData.location}
+                      onChange={(e) => setFormData({ ...formData, location: e.target.value })}
+                      placeholder="Venue address or area"
+                    />
+                  </div>
+
+                  <BookingFeeNotices preferredTime={formData.preferredStartTime} />
+
                   <div className="grid md:grid-cols-2 gap-6">
                     <div className="space-y-2">
-                      <Label htmlFor="location">Location *</Label>
+                      <Label htmlFor="preferredStartTime">Preferred start time</Label>
                       <Input
-                        id="location"
-                        required
-                        value={formData.location}
-                        onChange={(e) => setFormData({ ...formData, location: e.target.value })}
-                        placeholder="Cape Town area"
+                        id="preferredStartTime"
+                        type="time"
+                        value={formData.preferredStartTime}
+                        onChange={(e) =>
+                          setFormData({ ...formData, preferredStartTime: e.target.value })
+                        }
                       />
                     </div>
                     <div className="space-y-2">

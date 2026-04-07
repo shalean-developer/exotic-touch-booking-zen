@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PageStructuredData from "@/components/PageStructuredData";
 
 export const metadata: Metadata = {
-  title: "Mobile Spa in Tokai | Exotic Touch",
+  title: "Mobile Spa in Tokai | Exotic Essence",
   description: "Luxury mobile spa services in Tokai. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location.",
   keywords: ["mobile spa Tokai", "spa Tokai", "massage Tokai", "home spa Tokai"],
   alternates: {
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Mobile Spa in Tokai | Exotic Touch",
+    title: "Mobile Spa in Tokai | Exotic Essence",
     description: "Luxury mobile spa services in Tokai. Professional treatments delivered to your location.",
     url: "https://exotictmspa.co.za/locations/tokai",
     images: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mobile Spa in Tokai | Exotic Touch",
+    title: "Mobile Spa in Tokai | Exotic Essence",
     description: "Luxury mobile spa services in Tokai.",
     images: ["/hero-spa.jpg"],
   },
@@ -52,7 +52,7 @@ export default function TokaiLayout({
           { name: "Tokai", url: "/locations/tokai" },
         ]}
         pageType="ItemPage"
-        pageName="Mobile Spa in Tokai | Exotic Touch"
+        pageName="Mobile Spa in Tokai | Exotic Essence"
         pageDescription="Luxury mobile spa services in Tokai. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location."
         pageUrl="/locations/tokai"
       />

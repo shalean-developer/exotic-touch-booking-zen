@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PageStructuredData from "@/components/PageStructuredData";
 
 export const metadata: Metadata = {
-  title: "Mobile Spa in Constantia | Exotic Touch",
+  title: "Mobile Spa in Constantia | Exotic Essence",
   description: "Luxury mobile spa services in Constantia. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location.",
   keywords: ["mobile spa Constantia", "spa Constantia", "massage Constantia", "home spa Constantia"],
   alternates: {
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Mobile Spa in Constantia | Exotic Touch",
+    title: "Mobile Spa in Constantia | Exotic Essence",
     description: "Luxury mobile spa services in Constantia. Professional treatments delivered to your location.",
     url: "https://exotictmspa.co.za/locations/constantia",
     images: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mobile Spa in Constantia | Exotic Touch",
+    title: "Mobile Spa in Constantia | Exotic Essence",
     description: "Luxury mobile spa services in Constantia.",
     images: ["/hero-spa.jpg"],
   },
@@ -52,7 +52,7 @@ export default function ConstantiaLayout({
           { name: "Constantia", url: "/locations/constantia" },
         ]}
         pageType="ItemPage"
-        pageName="Mobile Spa in Constantia | Exotic Touch"
+        pageName="Mobile Spa in Constantia | Exotic Essence"
         pageDescription="Luxury mobile spa services in Constantia. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location."
         pageUrl="/locations/constantia"
       />

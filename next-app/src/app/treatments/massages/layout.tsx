@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Massage Treatments | Exotic Touch",
+    title: "Massage Treatments | Exotic Essence",
     description: "Professional therapeutic massages delivered to your doorstep in Cape Town. Book your massage today.",
     url: "https://exotictmspa.co.za/treatments/massages",
     images: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Massage Treatments | Exotic Touch",
+    title: "Massage Treatments | Exotic Essence",
     description: "Professional therapeutic massages delivered to your doorstep in Cape Town.",
     images: ["/massage-treatment.jpg"],
   },
@@ -58,7 +58,7 @@ export default function MassagesLayout({
         serviceType="Massage Therapy"
         serviceName="Professional Massage Treatments"
         serviceDescription="Swedish, Deep Tissue, Hot Stone, and Pregnancy massages delivered to your location in Cape Town"
-        servicePrice="650"
+        servicePrice="850"
         serviceImage="/massage-treatment.jpg"
       />
       {children}

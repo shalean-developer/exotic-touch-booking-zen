@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Lash Extensions | Exotic Touch",
+    title: "Lash Extensions | Exotic Essence",
     description: "Wake up with perfect lashes every day. Professional lash extensions delivered to your location in Cape Town.",
     url: "https://exotictmspa.co.za/treatments/lashes",
     images: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Lash Extensions | Exotic Touch",
+    title: "Lash Extensions | Exotic Essence",
     description: "Wake up with perfect lashes every day. Professional lash extensions in Cape Town.",
     images: ["/hero-spa.jpg"],
   },
@@ -58,7 +58,7 @@ export default function LashesLayout({
         serviceType="Beauty Service"
         serviceName="Lash Extension Services"
         serviceDescription="Classic, Hybrid, Volume, and Mega Volume lash extensions delivered to your location in Cape Town"
-        servicePrice="450"
+        servicePrice="550"
         serviceImage="/hero-spa.jpg"
       />
       {children}

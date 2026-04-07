@@ -11,6 +11,7 @@ import { Label } from "@/components/ui/label";
 import { Phone, MapPin, Clock, MessageCircle } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
+import { BookingFeeNotices } from "@/components/BookingFeeNotices";
 
 export default function ContactPage() {
   const { toast } = useToast();
@@ -18,6 +19,9 @@ export default function ContactPage() {
     name: "",
     email: "",
     phone: "",
+    serviceAddress: "",
+    preferredDate: "",
+    preferredTime: "",
     message: ""
   });
 
@@ -27,7 +31,15 @@ export default function ContactPage() {
       title: "Message Sent!",
       description: "Thank you for contacting us. We'll respond within 24 hours."
     });
-    setFormData({ name: "", email: "", phone: "", message: "" });
+    setFormData({
+      name: "",
+      email: "",
+      phone: "",
+      serviceAddress: "",
+      preferredDate: "",
+      preferredTime: "",
+      message: ""
+    });
   };
 
   const whatsappUrl = "https://wa.me/27684984179?text=Hi! I'd like to enquire about your spa services.";
@@ -156,6 +168,39 @@ export default function ContactPage() {
                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                         placeholder="+27 68 498 4179"
                       />
+                    </div>
+
+                    <div className="space-y-2">
+                      <Label htmlFor="serviceAddress">Service address (for bookings)</Label>
+                      <Input
+                        id="serviceAddress"
+                        value={formData.serviceAddress}
+                        onChange={(e) => setFormData({ ...formData, serviceAddress: e.target.value })}
+                        placeholder="Street, suburb, area"
+                      />
+                    </div>
+
+                    <BookingFeeNotices preferredTime={formData.preferredTime} />
+
+                    <div className="grid md:grid-cols-2 gap-6">
+                      <div className="space-y-2">
+                        <Label htmlFor="preferredDate">Preferred date</Label>
+                        <Input
+                          id="preferredDate"
+                          type="date"
+                          value={formData.preferredDate}
+                          onChange={(e) => setFormData({ ...formData, preferredDate: e.target.value })}
+                        />
+                      </div>
+                      <div className="space-y-2">
+                        <Label htmlFor="preferredTime">Preferred start time</Label>
+                        <Input
+                          id="preferredTime"
+                          type="time"
+                          value={formData.preferredTime}
+                          onChange={(e) => setFormData({ ...formData, preferredTime: e.target.value })}
+                        />
+                      </div>
                     </div>
 
                     <div className="space-y-2">

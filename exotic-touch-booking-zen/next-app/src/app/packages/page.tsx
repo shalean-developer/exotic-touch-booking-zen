@@ -16,7 +16,7 @@ export default function PackagesPage() {
       icon: Heart,
       name: "Couples Retreat",
       description: "Reconnect and unwind together with our couples spa experience",
-      price: "R2,500",
+      price: "R2,600",
       duration: "2 hours",
       includes: [
         "Side-by-side Swedish massage (60 mins)",
@@ -32,7 +32,7 @@ export default function PackagesPage() {
       icon: Sparkles,
       name: "Bridal Shower Package",
       description: "Perfect pampering for the bride-to-be and her party",
-      price: "From R4,500",
+      price: "From R4,600",
       duration: "3-4 hours",
       includes: [
         "Bride receives deluxe treatment",
@@ -66,7 +66,7 @@ export default function PackagesPage() {
       icon: Users,
       name: "Pamper Party",
       description: "Celebrate birthdays, hen parties, or any special occasion",
-      price: "From R3,500",
+      price: "From R3,600",
       duration: "3 hours",
       includes: [
         "Choice of 2 treatments per guest",

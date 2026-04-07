@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import PageStructuredData from "@/components/PageStructuredData";
 
 export const metadata: Metadata = {
-  title: "Testimonials & Reviews | Mobile Spa Reviews Cape Town | Exotic Touch",
-  description: "Read real customer reviews and testimonials from satisfied clients who experienced our mobile spa services in Cape Town. See why people choose Exotic Touch for luxury spa treatments.",
+  title: "Testimonials & Reviews | Mobile Spa Reviews Cape Town | Exotic Essence",
+  description: "Read real customer reviews and testimonials from satisfied clients who experienced our mobile spa services in Cape Town. See why people choose Exotic Essence for luxury spa treatments.",
   keywords: ["mobile spa reviews Cape Town", "spa testimonials", "customer reviews", "spa feedback", "mobile spa ratings", "spa customer stories"],
   alternates: {
     canonical: "https://exotictmspa.co.za/testimonials",
@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Testimonials & Reviews | Exotic Touch Mobile Spa",
+    title: "Testimonials & Reviews | Exotic Essence Mobile Spa",
     description: "Read real customer reviews and testimonials from satisfied clients.",
     url: "https://exotictmspa.co.za/testimonials",
-    siteName: "Exotic Touch Mobile Spa",
+    siteName: "Exotic Essence Mobile Spa",
     images: [
       {
         url: "/hero-spa.jpg",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Testimonials & Reviews | Exotic Touch",
+    title: "Testimonials & Reviews | Exotic Essence",
     description: "Read real customer reviews and testimonials from satisfied clients.",
     images: ["/hero-spa.jpg"],
   },
@@ -53,7 +53,7 @@ export default function TestimonialsLayout({
           { name: "Testimonials", url: "/testimonials" },
         ]}
         pageType="WebPage"
-        pageName="Testimonials & Reviews | Exotic Touch Mobile Spa"
+        pageName="Testimonials & Reviews | Exotic Essence Mobile Spa"
         pageDescription="Read real customer reviews and testimonials from satisfied clients who experienced our mobile spa services in Cape Town."
         pageUrl="/testimonials"
       />

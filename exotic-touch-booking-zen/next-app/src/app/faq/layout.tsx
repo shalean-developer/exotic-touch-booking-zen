@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PageStructuredData from "@/components/PageStructuredData";
 
 export const metadata: Metadata = {
-  title: "Frequently Asked Questions | Mobile Spa FAQ | Exotic Touch",
+  title: "Frequently Asked Questions | Mobile Spa FAQ | Exotic Essence",
   description: "Get answers to common questions about mobile spa services in Cape Town. Learn about booking, preparation, pricing, and what to expect from our professional spa treatments.",
   keywords: ["mobile spa FAQ", "spa questions", "mobile spa booking", "spa preparation", "what to expect mobile spa", "spa services Cape Town", "mobile spa information"],
   alternates: {
@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Frequently Asked Questions | Exotic Touch Mobile Spa",
+    title: "Frequently Asked Questions | Exotic Essence Mobile Spa",
     description: "Get answers to common questions about mobile spa services in Cape Town.",
     url: "https://exotictmspa.co.za/faq",
-    siteName: "Exotic Touch Mobile Spa",
+    siteName: "Exotic Essence Mobile Spa",
     images: [
       {
         url: "/hero-spa.jpg",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Frequently Asked Questions | Exotic Touch",
+    title: "Frequently Asked Questions | Exotic Essence",
     description: "Get answers to common questions about mobile spa services in Cape Town.",
     images: ["/hero-spa.jpg"],
   },
@@ -53,7 +53,7 @@ export default function FAQLayout({
           { name: "FAQ", url: "/faq" },
         ]}
         pageType="WebPage"
-        pageName="Frequently Asked Questions | Exotic Touch Mobile Spa"
+        pageName="Frequently Asked Questions | Exotic Essence Mobile Spa"
         pageDescription="Get answers to common questions about mobile spa services in Cape Town. Learn about booking, preparation, pricing, and what to expect."
         pageUrl="/faq"
       />

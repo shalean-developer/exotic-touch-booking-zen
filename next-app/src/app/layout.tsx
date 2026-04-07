@@ -19,14 +19,14 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: {
-    default: "Mobile Spa Treatments in Cape Town | Exotic Touch",
-    template: "%s | Exotic Touch",
+    default: "Mobile Spa Treatments in Cape Town | Exotic Essence",
+    template: "%s | Exotic Essence",
   },
   description: "Professional mobile spa services delivered to your home in Cape Town. Massages, facials, manicures, pedicures, waxing & lashes. Same-day bookings available.",
   keywords: ["mobile spa Cape Town", "home spa service", "massage at home", "mobile beauty treatments", "luxury spa Cape Town", "same day spa booking"],
-  authors: [{ name: "Exotic Touch Mobile Spa" }],
-  creator: "Exotic Touch Mobile Spa",
-  publisher: "Exotic Touch Mobile Spa",
+  authors: [{ name: "Exotic Essence Mobile Spa" }],
+  creator: "Exotic Essence Mobile Spa",
+  publisher: "Exotic Essence Mobile Spa",
   formatDetection: {
     email: false,
     address: false,
@@ -49,21 +49,21 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_ZA",
     url: "https://exotictmspa.co.za",
-    siteName: "Exotic Touch Mobile Spa",
-    title: "Mobile Spa Treatments in Cape Town | Exotic Touch",
+    siteName: "Exotic Essence Mobile Spa",
+    title: "Mobile Spa Treatments in Cape Town | Exotic Essence",
     description: "Professional mobile spa services delivered to your home in Cape Town. Massages, facials, manicures, pedicures, waxing & lashes.",
     images: [
       {
         url: "/logo.png",
         width: 1200,
         height: 630,
-        alt: "Exotic Touch Mobile Spa Logo",
+        alt: "Exotic Essence Mobile Spa Logo",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mobile Spa Treatments in Cape Town | Exotic Touch",
+    title: "Mobile Spa Treatments in Cape Town | Exotic Essence",
     description: "Professional mobile spa services delivered to your home in Cape Town. Massages, facials, manicures, pedicures, waxing & lashes.",
     images: ["/logo.png"],
   },

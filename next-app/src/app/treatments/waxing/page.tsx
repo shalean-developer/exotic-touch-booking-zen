@@ -13,61 +13,46 @@ export default function WaxingPage() {
     {
       category: "Face",
       services: [
-        { name: "Eyebrow Wax", price: 150, duration: 15 },
-        { name: "Lip Wax", price: 150, duration: 10 },
-        { name: "Chin Wax", price: 150, duration: 10 },
-        { name: "Full Face Wax", price: 400, duration: 30 },
-        { name: "Nose Wax", price: 100, duration: 10 },
-        { name: "Ear Wax", price: 100, duration: 10 }
+        { name: "Eyebrow Wax", price: 250, duration: 15 },
+        { name: "Lip Wax", price: 250, duration: 10 },
+        { name: "Chin Wax", price: 250, duration: 10 },
+        { name: "Full Face Wax", price: 500, duration: 30 },
+        { name: "Nose Wax", price: 200, duration: 10 },
+        { name: "Ear Wax", price: 200, duration: 10 }
       ]
     },
     {
       category: "Body",
       services: [
-        { name: "Underarm Wax", price: 200, duration: 15 },
-        { name: "Half Arm Wax", price: 250, duration: 20 },
-        { name: "Full Arm Wax", price: 400, duration: 30 },
-        { name: "Half Leg Wax", price: 350, duration: 30 },
-        { name: "Full Leg Wax", price: 550, duration: 45 }
+        { name: "Underarm Wax", price: 300, duration: 15 },
+        { name: "Half Arm Wax", price: 350, duration: 20 },
+        { name: "Full Arm Wax", price: 500, duration: 30 },
+        { name: "Half Leg Wax", price: 450, duration: 30 },
+        { name: "Full Leg Wax", price: 650, duration: 45 }
       ]
     },
     {
       category: "Bikini Area",
       services: [
-        { name: "Bikini Wax", price: 300, duration: 20 },
-        { name: "Brazilian Wax", price: 450, duration: 30 },
-        { name: "Hollywood Wax", price: 500, duration: 35 }
+        { name: "Bikini Wax", price: 400, duration: 20 },
+        { name: "Brazilian Wax", price: 550, duration: 30 },
+        { name: "Hollywood Wax", price: 600, duration: 35 }
       ]
     },
     {
       category: "Tinting",
       services: [
-        { name: "Eyelash Tint", price: 200, duration: 20 },
-        { name: "Eyebrow Tint", price: 200, duration: 20 },
-        { name: "Lash & Brow Tint Combo", price: 350, duration: 35 }
+        { name: "Eyelash Tint", price: 300, duration: 20 },
+        { name: "Eyebrow Tint", price: 300, duration: 20 },
+        { name: "Lash & Brow Tint Combo", price: 450, duration: 35 }
       ]
     }
   ];
 
-  const packages = [
-    {
-      name: "Full Leg + Bikini",
-      regularPrice: 850,
-      packagePrice: 750,
-      savings: 100
-    },
-    {
-      name: "Full Arm + Underarm",
-      regularPrice: 600,
-      packagePrice: 550,
-      savings: 50
-    },
-    {
-      name: "Face Wax Bundle (Brow + Lip + Chin)",
-      regularPrice: 450,
-      packagePrice: 400,
-      savings: 50
-    }
+  const bundleOffers = [
+    { name: "Full Leg + Bikini", price: 950 },
+    { name: "Full Arm + Underarm", price: 700 },
+    { name: "Face Wax Bundle (Brow + Lip + Chin)", price: 550 }
   ];
 
   return (
@@ -118,21 +103,20 @@ export default function WaxingPage() {
             ))}
           </div>
 
-          {/* Package Deals */}
+          {/* Bundle pricing */}
           <div className="max-w-6xl mx-auto mt-16">
-            <h2 className="text-3xl font-heading font-bold text-center mb-8">Package Deals</h2>
+            <h2 className="text-3xl font-heading font-bold text-center mb-8">Bundle pricing</h2>
             <div className="grid md:grid-cols-3 gap-6">
-              {packages.map((pkg, idx) => (
+              {bundleOffers.map((pkg, idx) => (
                 <Card key={idx} className="luxury-card border-luxury ring-2 ring-primary">
                   <CardContent className="p-6 text-center">
                     <h3 className="font-semibold text-lg mb-4">{pkg.name}</h3>
                     <div className="space-y-2 mb-6">
-                      <p className="text-sm text-muted-foreground line-through">R{pkg.regularPrice}</p>
-                      <p className="text-3xl font-bold text-primary">R{pkg.packagePrice}</p>
-                      <p className="text-sm font-semibold text-green-600">Save R{pkg.savings}</p>
+                      <p className="text-3xl font-bold text-primary">R{pkg.price}</p>
+                      <p className="text-sm text-muted-foreground">Standard bundle rate</p>
                     </div>
                     <Button variant="luxury" className="w-full" asChild>
-                      <a href="https://wa.me/27684984179?text=Hi! I'd like to book waxing services." target="_blank" rel="noopener noreferrer">Book Package</a>
+                      <a href="https://wa.me/27684984179?text=Hi! I'd like to book waxing services." target="_blank" rel="noopener noreferrer">Book bundle</a>
                     </Button>
                   </CardContent>
                 </Card>

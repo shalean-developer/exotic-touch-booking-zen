@@ -16,7 +16,6 @@ const Navigation = () => {
     { name: "Treatments", href: "/treatments" },
     { name: "Packages", href: "/packages" },
     { name: "Locations", href: "/locations" },
-    { name: "Specials", href: "/specials" },
     { name: "Events", href: "/events" },
     { name: "Contact", href: "/contact" },
   ];
@@ -33,7 +32,7 @@ const Navigation = () => {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <div className="text-2xl font-heading font-bold text-gradient-primary">
-              Exotic Touch
+              Exotic Essence
             </div>
           </Link>
 

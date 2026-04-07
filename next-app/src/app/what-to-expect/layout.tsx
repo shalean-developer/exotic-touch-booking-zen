@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PageStructuredData from "@/components/PageStructuredData";
 
 export const metadata: Metadata = {
-  title: "What to Expect | Mobile Spa Experience Guide | Exotic Touch",
+  title: "What to Expect | Mobile Spa Experience Guide | Exotic Essence",
   description: "Learn what to expect from your mobile spa experience. Step-by-step guide to booking, preparation, treatment process, and aftercare for mobile spa services in Cape Town.",
   keywords: ["what to expect mobile spa", "mobile spa experience", "spa appointment guide", "mobile spa preparation", "spa treatment process", "first time spa"],
   alternates: {
@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "What to Expect | Exotic Touch Mobile Spa",
+    title: "What to Expect | Exotic Essence Mobile Spa",
     description: "Learn what to expect from your mobile spa experience in Cape Town.",
     url: "https://exotictmspa.co.za/what-to-expect",
-    siteName: "Exotic Touch Mobile Spa",
+    siteName: "Exotic Essence Mobile Spa",
     images: [
       {
         url: "/hero-spa.jpg",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "What to Expect | Exotic Touch",
+    title: "What to Expect | Exotic Essence",
     description: "Learn what to expect from your mobile spa experience.",
     images: ["/hero-spa.jpg"],
   },
@@ -53,7 +53,7 @@ export default function WhatToExpectLayout({
           { name: "What to Expect", url: "/what-to-expect" },
         ]}
         pageType="WebPage"
-        pageName="What to Expect | Exotic Touch Mobile Spa"
+        pageName="What to Expect | Exotic Essence Mobile Spa"
         pageDescription="Learn what to expect from your mobile spa experience. Step-by-step guide to booking, preparation, treatment process, and aftercare."
         pageUrl="/what-to-expect"
       />

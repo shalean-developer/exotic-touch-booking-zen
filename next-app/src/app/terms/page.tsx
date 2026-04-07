@@ -34,7 +34,7 @@ export default function TermsPage() {
                   <section className="mb-8">
                     <h2 className="text-2xl font-heading font-bold mb-4">1. Acceptance of Terms</h2>
                     <p className="text-muted-foreground mb-4">
-                      By accessing and using the services of Exotic Touch Mobile Spa (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;), 
+                      By accessing and using the services of Exotic Essence Mobile Spa (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;), 
                       you accept and agree to be bound by these Terms of Service. If you do not agree to these 
                       terms, please do not use our services.
                     </p>
@@ -43,7 +43,7 @@ export default function TermsPage() {
                   <section className="mb-8">
                     <h2 className="text-2xl font-heading font-bold mb-4">2. Services</h2>
                     <p className="text-muted-foreground mb-4">
-                      Exotic Touch Mobile Spa provides mobile spa and beauty treatment services delivered to 
+                      Exotic Essence Mobile Spa provides mobile spa and beauty treatment services delivered to 
                       your specified location within our service area. We offer various treatments including 
                       massages, facials, manicures, pedicures, waxing, and lash services.
                     </p>
@@ -135,7 +135,7 @@ export default function TermsPage() {
                   <section className="mb-8">
                     <h2 className="text-2xl font-heading font-bold mb-4">9. Limitation of Liability</h2>
                     <p className="text-muted-foreground mb-4">
-                      To the maximum extent permitted by law, Exotic Touch Mobile Spa shall not be liable 
+                      To the maximum extent permitted by law, Exotic Essence Mobile Spa shall not be liable 
                       for any indirect, incidental, special, or consequential damages arising from the use 
                       of our services. Our total liability shall not exceed the amount paid for the specific 
                       service in question.
@@ -146,7 +146,7 @@ export default function TermsPage() {
                     <h2 className="text-2xl font-heading font-bold mb-4">10. Intellectual Property</h2>
                     <p className="text-muted-foreground mb-4">
                       All content on our website, including text, graphics, logos, and images, is the property 
-                      of Exotic Touch Mobile Spa and is protected by copyright and other intellectual property laws.
+                      of Exotic Essence Mobile Spa and is protected by copyright and other intellectual property laws.
                     </p>
                   </section>
 

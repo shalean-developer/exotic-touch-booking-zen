@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PageStructuredData from "@/components/PageStructuredData";
 
 export const metadata: Metadata = {
-  title: "Mobile Spa in Newlands | Exotic Touch",
+  title: "Mobile Spa in Newlands | Exotic Essence",
   description: "Luxury mobile spa services in Newlands. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location.",
   keywords: ["mobile spa Newlands", "spa Newlands", "massage Newlands", "home spa Newlands"],
   alternates: {
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Mobile Spa in Newlands | Exotic Touch",
+    title: "Mobile Spa in Newlands | Exotic Essence",
     description: "Luxury mobile spa services in Newlands. Professional treatments delivered to your location.",
     url: "https://exotictmspa.co.za/locations/newlands",
     images: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mobile Spa in Newlands | Exotic Touch",
+    title: "Mobile Spa in Newlands | Exotic Essence",
     description: "Luxury mobile spa services in Newlands.",
     images: ["/hero-spa.jpg"],
   },
@@ -52,7 +52,7 @@ export default function NewlandsLayout({
           { name: "Newlands", url: "/locations/newlands" },
         ]}
         pageType="ItemPage"
-        pageName="Mobile Spa in Newlands | Exotic Touch"
+        pageName="Mobile Spa in Newlands | Exotic Essence"
         pageDescription="Luxury mobile spa services in Newlands. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location."
         pageUrl="/locations/newlands"
       />

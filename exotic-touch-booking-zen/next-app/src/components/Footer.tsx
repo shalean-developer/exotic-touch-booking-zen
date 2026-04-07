@@ -10,7 +10,6 @@ const Footer = () => {
     { name: "Treatments", href: "/treatments" },
     { name: "Packages", href: "/packages" },
     { name: "Locations", href: "/locations" },
-    { name: "Specials", href: "/specials" },
     { name: "Events", href: "/events" },
     { name: "Contact", href: "/contact" },
   ];
@@ -33,7 +32,7 @@ const Footer = () => {
             <div className="mb-6">
               <Link href="/" className="inline-block mb-4">
                 <div className="text-3xl font-heading font-bold text-background">
-                  Exotic Touch
+                  Exotic Essence
                 </div>
                 <div className="text-sm text-background/70 mt-1">
                   Mobile Spa
@@ -118,7 +117,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="border-t border-background/20 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="text-background/60 mb-4 md:mb-0">
-            © 2025 Exotic Touch Mobile Spa. All rights reserved. | Website Design By{" "}
+            © 2025 Exotic Essence Mobile Spa. All rights reserved. | Website Design By{" "}
             <a 
               href="https://wa.me/27685886831" 
               target="_blank" 

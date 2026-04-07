@@ -9,9 +9,9 @@ export async function GET() {
   const rssFeed = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Privacy Policy - Exotic Touch Mobile Spa</title>
+    <title>Privacy Policy - Exotic Essence Mobile Spa</title>
     <link>${privacyPolicyUrl}</link>
-    <description>Privacy Policy updates and information from Exotic Touch Mobile Spa</description>
+    <description>Privacy Policy updates and information from Exotic Essence Mobile Spa</description>
     <language>en-ZA</language>
     <lastBuildDate>${lastModified}</lastBuildDate>
     <pubDate>${lastModified}</pubDate>
@@ -21,7 +21,7 @@ export async function GET() {
       <title>Privacy Policy</title>
       <link>${privacyPolicyUrl}</link>
       <guid isPermaLink="true">${privacyPolicyUrl}</guid>
-      <description>Read our privacy policy to understand how Exotic Touch Mobile Spa collects, uses, and protects your personal information.</description>
+      <description>Read our privacy policy to understand how Exotic Essence Mobile Spa collects, uses, and protects your personal information.</description>
       <pubDate>${lastModified}</pubDate>
     </item>
   </channel>

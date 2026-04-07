@@ -16,10 +16,10 @@ export default function MassagesPage() {
     {
       name: "Swedish Massage",
       description: "Classic relaxation massage using long, flowing strokes to ease tension and promote deep relaxation. Perfect for stress relief and improved circulation.",
-      basePrice: 750,
+      basePrice: 850,
       durations: [
-        { time: 60, price: 750 },
-        { time: 90, price: 950 }
+        { time: 60, price: 850 },
+        { time: 90, price: 1050 }
       ],
       includes: ["Premium aromatherapy oils", "Heated towels", "Soothing music", "Full body massage"],
       popular: true
@@ -27,10 +27,10 @@ export default function MassagesPage() {
     {
       name: "Deep Tissue Massage",
       description: "Therapeutic massage targeting deeper layers of muscle tissue. Ideal for chronic aches, muscle tension, and sports injuries.",
-      basePrice: 850,
+      basePrice: 950,
       durations: [
-        { time: 60, price: 850 },
-        { time: 90, price: 1050 }
+        { time: 60, price: 950 },
+        { time: 90, price: 1150 }
       ],
       includes: ["Targeted pressure techniques", "Muscle tension relief", "Sports recovery", "Hot/cold therapy"],
       popular: false
@@ -38,10 +38,10 @@ export default function MassagesPage() {
     {
       name: "Hot Stone Massage",
       description: "Luxurious massage using heated volcanic stones to melt away tension. The warmth penetrates deep into muscles for ultimate relaxation.",
-      basePrice: 800,
+      basePrice: 900,
       durations: [
-        { time: 60, price: 800 },
-        { time: 90, price: 1000 }
+        { time: 60, price: 900 },
+        { time: 90, price: 1100 }
       ],
       includes: ["Heated volcanic stones", "Deep muscle relaxation", "Enhanced circulation", "Aromatherapy"],
       popular: false
@@ -49,10 +49,10 @@ export default function MassagesPage() {
     {
       name: "Pregnancy Massage",
       description: "Specially designed for expecting mothers to relieve pregnancy-related discomfort. Safe and soothing for all trimesters (with doctor approval).",
-      basePrice: 750,
+      basePrice: 850,
       durations: [
-        { time: 60, price: 750 },
-        { time: 90, price: 950 }
+        { time: 60, price: 850 },
+        { time: 90, price: 1050 }
       ],
       includes: ["Specialized positioning", "Gentle techniques", "Swelling reduction", "Back & hip relief"],
       popular: false
@@ -60,10 +60,10 @@ export default function MassagesPage() {
   ];
 
   const addOns = [
-    { name: "Relaxing Back Scrub", price: 100 },
-    { name: "Foot Reflexology (30 min)", price: 200 },
-    { name: "Scalp Massage (15 min)", price: 150 },
-    { name: "Extended Time (+30 min)", price: 250 }
+    { name: "Relaxing Back Scrub", price: 200 },
+    { name: "Foot Reflexology (30 min)", price: 300 },
+    { name: "Scalp Massage (15 min)", price: 250 },
+    { name: "Extended Time (+30 min)", price: 350 }
   ];
 
   return (

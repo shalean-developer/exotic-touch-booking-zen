@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Events & Groups | Exotic Touch",
+    title: "Events & Groups | Exotic Essence",
     description: "Transform your special occasion into an unforgettable spa experience. Book your event today.",
     url: "https://exotictmspa.co.za/events",
     images: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Events & Groups | Exotic Touch",
+    title: "Events & Groups | Exotic Essence",
     description: "Transform your special occasion into an unforgettable spa experience.",
     images: ["/hero-spa.jpg"],
   },

@@ -6,7 +6,7 @@ const StructuredData = () => {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "@id": "https://exotictmspa.co.za/#website",
-    name: "Exotic Touch Mobile Spa",
+    name: "Exotic Essence Mobile Spa",
     url: "https://exotictmspa.co.za",
     potentialAction: {
       "@type": "SearchAction",
@@ -26,11 +26,11 @@ const StructuredData = () => {
     "@context": "https://schema.org",
     "@type": "BeautySalon",
     "@id": "https://exotictmspa.co.za/#organization",
-    "name": "Exotic Touch Mobile Spa",
+    "name": "Exotic Essence Mobile Spa",
     "description": "Luxury mobile spa treatments in Cape Town. Professional massages, facials, manicures, pedicures, waxing, and lash services delivered to your doorstep.",
     "url": "https://exotictmspa.co.za",
     "telephone": "+27684984179",
-    "priceRange": "R350-R1500",
+    "priceRange": "R450-R1600",
     "image": [
       "https://exotictmspa.co.za/hero-spa.jpg",
       "https://exotictmspa.co.za/massage-treatment.jpg",

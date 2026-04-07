@@ -84,7 +84,7 @@ export default function FAQPage() {
       questions: [
         {
           question: "What are your prices?",
-          answer: "Our prices vary by treatment type and duration. Massages start from R750, Facials from R500, Manicures/Pedicures from R500, Waxing from R150, and Lash Extensions from R450. We offer package deals and special promotions. Contact us for detailed pricing or visit our pricing page.",
+          answer: "Our prices vary by treatment type and duration. Massages start from R850, Facials from R600, Manicures/Pedicures from R600, Waxing from R250, and Lash Extensions from R550. Package pricing is listed on our packages page. Contact us for detailed pricing or visit our pricing page.",
         },
         {
           question: "What payment methods do you accept?",
@@ -96,16 +96,16 @@ export default function FAQPage() {
         },
         {
           question: "Are there any additional fees?",
-          answer: "Our prices are all-inclusive for standard service areas. For locations outside our standard service area, there may be a small travel fee which we&apos;ll discuss during booking. All prices are transparent with no hidden costs.",
+          answer: "Our prices are all-inclusive for standard service areas. Bookings in the Winelands area incur an additional transport fee. For other locations outside our standard service area, there may be a travel fee which we&apos;ll discuss during booking. All prices are transparent with no hidden costs.",
         },
       ],
     },
     {
-      category: "Special Events & Groups",
+      category: "Events & Groups",
       questions: [
         {
           question: "Do you offer group bookings?",
-          answer: "Yes! We specialize in group events including bridal showers, hen parties, birthday celebrations, corporate wellness sessions, and pamper parties. We can accommodate multiple therapists to serve groups simultaneously. Group bookings often qualify for special discounts.",
+          answer: "Yes! We specialize in group events including bridal showers, hen parties, birthday celebrations, corporate wellness sessions, and pamper parties. We can accommodate multiple therapists to serve groups simultaneously. Contact us for a tailored quote.",
         },
         {
           question: "Can you come to hotels or accommodations?",

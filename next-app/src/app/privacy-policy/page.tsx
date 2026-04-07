@@ -34,7 +34,7 @@ export default function PrivacyPolicyPage() {
                   <section className="mb-8">
                     <h2 className="text-2xl font-heading font-bold mb-4">1. Introduction</h2>
                     <p className="text-muted-foreground mb-4">
-                      Exotic Touch Mobile Spa (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;) is committed to protecting your privacy. 
+                      Exotic Essence Mobile Spa (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;) is committed to protecting your privacy. 
                       This Privacy Policy explains how we collect, use, disclose, and safeguard your information 
                       when you visit our website or use our services.
                     </p>

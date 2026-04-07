@@ -78,12 +78,12 @@ const HeroSection = () => {
           </Button>
         </div>
 
-        {/* Special Offer Banner */}
-        <div className="luxury-card p-6 rounded-2xl border-luxury animate-fade-in inline-block">
-          <p className="text-lg font-medium text-primary mb-2">✨ Current Special ✨</p>
-          <p className="text-2xl font-heading font-bold mb-1">Swedish Massage + Back Scrub</p>
-          <p className="text-3xl font-bold text-primary">Only R550</p>
-          <p className="text-sm text-muted-foreground">(60 minutes • Save R100)</p>
+        <div className="luxury-card p-6 rounded-2xl border-luxury animate-fade-in inline-block max-w-lg">
+          <p className="text-lg font-medium text-primary mb-2">Luxury at your door</p>
+          <p className="text-xl font-heading font-semibold mb-1">Certified therapists • Premium products</p>
+          <p className="text-sm text-muted-foreground">
+            Same-day bookings available across Cape Town and surrounds.
+          </p>
         </div>
       </div>
 

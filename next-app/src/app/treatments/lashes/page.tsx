@@ -14,7 +14,7 @@ export default function LashesPage() {
     {
       name: "Classic Lashes",
       description: "Natural-looking extensions with one extension per natural lash. Perfect for everyday elegance.",
-      price: 450,
+      price: 550,
       duration: 120,
       includes: ["Individual lash application", "Natural volume", "Customized length", "2-3 week retention"],
       popular: true
@@ -22,7 +22,7 @@ export default function LashesPage() {
     {
       name: "Hybrid Lashes",
       description: "Combination of classic and volume techniques for a textured, fuller look with dimension.",
-      price: 550,
+      price: 650,
       duration: 150,
       includes: ["Mixed technique application", "Enhanced volume", "Textured appearance", "3-4 week retention"],
       popular: false
@@ -30,7 +30,7 @@ export default function LashesPage() {
     {
       name: "Volume Lashes",
       description: "Dramatic look with multiple lightweight extensions per natural lash for maximum fullness.",
-      price: 650,
+      price: 750,
       duration: 180,
       includes: ["Multiple extensions per lash", "Dramatic fullness", "Lightweight feel", "3-4 week retention"],
       popular: false
@@ -38,7 +38,7 @@ export default function LashesPage() {
     {
       name: "Mega Volume Lashes",
       description: "Ultimate glamour with ultra-fine extensions for the most dramatic, full look possible.",
-      price: 750,
+      price: 850,
       duration: 210,
       includes: ["Ultra-fine extensions", "Maximum drama", "Fluffy, full look", "4-5 week retention"],
       popular: false
@@ -46,7 +46,7 @@ export default function LashesPage() {
     {
       name: "Lash Fill (2-3 weeks)",
       description: "Maintenance appointment to replace grown-out lashes and restore fullness.",
-      price: 300,
+      price: 400,
       duration: 60,
       includes: ["Removal of outgrown lashes", "New extension application", "Shape restoration"],
       popular: false
@@ -54,7 +54,7 @@ export default function LashesPage() {
     {
       name: "Lash Removal",
       description: "Safe, professional removal of lash extensions without damage to natural lashes.",
-      price: 150,
+      price: 250,
       duration: 30,
       includes: ["Gentle removal process", "Natural lash conditioning", "No damage guarantee"],
       popular: false

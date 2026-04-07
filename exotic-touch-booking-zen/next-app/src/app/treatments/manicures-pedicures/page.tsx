@@ -15,42 +15,42 @@ export default function ManicuresPedicuresPage() {
     {
       name: "Gel Overlay Manicure",
       description: "Long-lasting gel polish application over natural nails with shaping and cuticle care.",
-      price: 350,
+      price: 450,
       duration: 60,
       includes: ["Nail shaping & filing", "Cuticle treatment", "Hand massage", "Gel polish application", "Quick-dry finish"]
     },
     {
       name: "Deluxe Manicure",
       description: "Comprehensive hand and nail treatment with exfoliation, mask, and polish.",
-      price: 550,
+      price: 650,
       duration: 75,
       includes: ["Soak & nail prep", "Exfoliation scrub", "Hydrating mask", "Massage", "Polish or gel"]
     },
     {
       name: "Deluxe Pedicure",
       description: "Complete foot pampering with callus removal, scrub, mask, and polish.",
-      price: 600,
+      price: 700,
       duration: 90,
       includes: ["Foot soak", "Callus removal", "Nail shaping", "Scrub & mask", "Foot massage", "Polish or gel"]
     },
     {
       name: "Medi Heel Pedi",
       description: "Therapeutic pedicure focusing on cracked heels and dry skin with medical-grade products.",
-      price: 650,
+      price: 750,
       duration: 90,
       includes: ["Deep callus treatment", "Heel repair balm", "Intensive moisturizing", "Foot massage", "Polish optional"]
     },
     {
       name: "Nail Enhancement",
       description: "Gel extensions or acrylic nails for length and strength.",
-      price: 700,
+      price: 800,
       duration: 120,
       includes: ["Nail preparation", "Extension application", "Shaping & filing", "Gel polish", "Cuticle care"]
     },
     {
       name: "Nail Art",
       description: "Creative nail designs and decorations (add-on to any service).",
-      price: 100,
+      price: 200,
       duration: 30,
       includes: ["Custom designs", "Artistic patterns", "Embellishments", "Rhinestones & decals"]
     }
@@ -60,16 +60,12 @@ export default function ManicuresPedicuresPage() {
     {
       name: "Mani + Pedi Combo",
       description: "Deluxe manicure and pedicure package",
-      regularPrice: 1150,
-      comboPrice: 1000,
-      savings: 150
+      price: 1250
     },
     {
       name: "Gel Mani + Pedi",
       description: "Gel overlay on hands and feet",
-      regularPrice: 1100,
-      comboPrice: 950,
-      savings: 150
+      price: 1200
     }
   ];
 
@@ -156,9 +152,8 @@ export default function ManicuresPedicuresPage() {
                   </CardHeader>
                   <CardContent className="space-y-4">
                     <div className="flex items-center gap-4">
-                      <span className="text-lg text-muted-foreground line-through">R{combo.regularPrice}</span>
-                      <span className="text-3xl font-bold text-primary">R{combo.comboPrice}</span>
-                      <span className="text-sm font-semibold text-green-600">Save R{combo.savings}</span>
+                      <span className="text-3xl font-bold text-primary">R{combo.price}</span>
+                      <span className="text-sm text-muted-foreground">Combo rate</span>
                     </div>
                     <Button variant="luxury" size="lg" className="w-full" asChild>
                       <a href="https://wa.me/27684984179?text=Hi! I'd like to book nail services." target="_blank" rel="noopener noreferrer">Book Combo</a>

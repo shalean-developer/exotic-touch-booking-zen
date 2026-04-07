@@ -237,7 +237,7 @@ export default function CorporateWellnessPage() {
                     </li>
                     <li className="flex items-start gap-2">
                       <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                      <span>Volume discounts for larger teams</span>
+                      <span>Volume pricing for larger teams</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />

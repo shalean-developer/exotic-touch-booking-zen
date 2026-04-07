@@ -47,7 +47,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-5xl md:text-6xl font-heading font-bold mb-6 text-gradient-primary">
-              About Exotic Touch
+              About Exotic Essence
             </h1>
             <p className="text-xl text-muted-foreground">
               Bringing luxury spa experiences directly to your home in Cape Town
@@ -65,7 +65,7 @@ export default function AboutPage() {
                 <h2 className="text-3xl font-heading font-bold mb-6">Our Story</h2>
                 <div className="space-y-4 text-muted-foreground">
                   <p>
-                    Exotic Touch Mobile Spa was founded with a simple mission: to make luxury spa treatments 
+                    Exotic Essence Mobile Spa was founded with a simple mission: to make luxury spa treatments 
                     accessible and convenient for everyone in Cape Town. We recognized that busy schedules and 
                     the demands of modern life often prevent people from taking time for self-care.
                   </p>
@@ -130,7 +130,7 @@ export default function AboutPage() {
       <section className="py-20 bg-gradient-soft">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-heading font-bold text-center mb-12">Why Choose Exotic Touch?</h2>
+            <h2 className="text-4xl font-heading font-bold text-center mb-12">Why Choose Exotic Essence?</h2>
             <div className="space-y-6">
               <Card className="luxury-card border-luxury">
                 <CardContent className="p-6">
@@ -190,7 +190,7 @@ export default function AboutPage() {
                 <h2 className="text-3xl font-heading font-bold mb-4">Ready to Experience the Difference?</h2>
                 <p className="text-muted-foreground mb-8">
                   Book your first treatment today and discover why so many Cape Town residents choose 
-                  Exotic Touch for their spa needs.
+                  Exotic Essence for their spa needs.
                 </p>
                 <Button variant="luxury" size="lg" asChild>
                   <a href="https://wa.me/27684984179?text=Hi! I'd like to book a spa treatment." target="_blank" rel="noopener noreferrer">

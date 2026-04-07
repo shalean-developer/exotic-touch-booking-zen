@@ -13,6 +13,16 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   async redirects() {
     return [
+      {
+        source: "/specials",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/specials/:path*",
+        destination: "/",
+        permanent: true,
+      },
       // Redirect old product URLs to treatments page (specific products first)
       {
         source: "/product/body-scrubs",

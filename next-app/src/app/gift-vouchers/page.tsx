@@ -14,7 +14,7 @@ export default function GiftVouchersPage() {
     {
       name: "Treatment-Specific Voucher",
       description: "Perfect for someone who knows exactly what they want",
-      price: "From R500",
+      price: "From R600",
       features: [
         "Choose specific treatment (Massage, Facial, etc.)",
         "Valid for 12 months",
@@ -27,9 +27,9 @@ export default function GiftVouchersPage() {
     {
       name: "Monetary Value Voucher",
       description: "Let them choose their perfect spa experience",
-      price: "R500 - R5,000+",
+      price: "R600 - R5,000+",
       features: [
-        "Flexible amount (minimum R500)",
+        "Flexible amount (minimum R600)",
         "Can be used for any treatment or package",
         "Can combine with other payments",
         "Valid for 12 months",
@@ -40,7 +40,7 @@ export default function GiftVouchersPage() {
     {
       name: "Package Voucher",
       description: "The ultimate spa experience gift",
-      price: "From R2,500",
+      price: "From R2,600",
       features: [
         "Complete spa packages",
         "Couples Retreat packages",

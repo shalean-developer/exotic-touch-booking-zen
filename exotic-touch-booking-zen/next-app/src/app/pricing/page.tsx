@@ -15,56 +15,56 @@ export default function PricingPage() {
       name: "Massages",
       link: "/treatments/massages",
       treatments: [
-        { name: "Swedish Massage", price: "R750", duration: "60 mins", popular: true },
-        { name: "Swedish Massage", price: "R950", duration: "90 mins", popular: false },
-        { name: "Deep Tissue Massage", price: "R850", duration: "60 mins", popular: false },
-        { name: "Deep Tissue Massage", price: "R1,050", duration: "90 mins", popular: false },
-        { name: "Hot Stone Massage", price: "R800", duration: "60 mins", popular: false },
-        { name: "Hot Stone Massage", price: "R1,000", duration: "90 mins", popular: false },
-        { name: "Pregnancy Massage", price: "R750", duration: "60 mins", popular: false },
-        { name: "Pregnancy Massage", price: "R950", duration: "90 mins", popular: false },
+        { name: "Swedish Massage", price: "R850", duration: "60 mins", popular: true },
+        { name: "Swedish Massage", price: "R1,050", duration: "90 mins", popular: false },
+        { name: "Deep Tissue Massage", price: "R950", duration: "60 mins", popular: false },
+        { name: "Deep Tissue Massage", price: "R1,150", duration: "90 mins", popular: false },
+        { name: "Hot Stone Massage", price: "R900", duration: "60 mins", popular: false },
+        { name: "Hot Stone Massage", price: "R1,100", duration: "90 mins", popular: false },
+        { name: "Pregnancy Massage", price: "R850", duration: "60 mins", popular: false },
+        { name: "Pregnancy Massage", price: "R1,050", duration: "90 mins", popular: false },
       ],
     },
     {
       name: "Facials",
       link: "/treatments/facials",
       treatments: [
-        { name: "Superficial Facial", price: "R500", duration: "45 mins", popular: true },
-        { name: "Deep Cleanse Facial", price: "R600", duration: "60 mins", popular: false },
-        { name: "Anti-Aging Facial", price: "R750", duration: "75 mins", popular: false },
+        { name: "Superficial Facial", price: "R600", duration: "45 mins", popular: true },
+        { name: "Deep Cleanse Facial", price: "R700", duration: "60 mins", popular: false },
+        { name: "Anti-Aging Facial", price: "R850", duration: "75 mins", popular: false },
       ],
     },
     {
       name: "Manicures & Pedicures",
       link: "/treatments/manicures-pedicures",
       treatments: [
-        { name: "Classic Manicure", price: "R300", duration: "45 mins", popular: false },
-        { name: "Gel Manicure", price: "R450", duration: "60 mins", popular: true },
-        { name: "Classic Pedicure", price: "R350", duration: "60 mins", popular: false },
-        { name: "Gel Pedicure", price: "R500", duration: "75 mins", popular: false },
-        { name: "Deluxe Mani/Pedi", price: "R750", duration: "120 mins", popular: false },
+        { name: "Classic Manicure", price: "R400", duration: "45 mins", popular: false },
+        { name: "Gel Manicure", price: "R550", duration: "60 mins", popular: true },
+        { name: "Classic Pedicure", price: "R450", duration: "60 mins", popular: false },
+        { name: "Gel Pedicure", price: "R600", duration: "75 mins", popular: false },
+        { name: "Deluxe Mani/Pedi", price: "R850", duration: "120 mins", popular: false },
       ],
     },
     {
       name: "Waxing",
       link: "/treatments/waxing",
       treatments: [
-        { name: "Eyebrow Wax", price: "R150", duration: "15 mins", popular: false },
-        { name: "Bikini Wax", price: "R300", duration: "20 mins", popular: false },
-        { name: "Brazilian Wax", price: "R450", duration: "30 mins", popular: true },
-        { name: "Full Leg Wax", price: "R550", duration: "45 mins", popular: false },
-        { name: "Full Face Wax", price: "R400", duration: "30 mins", popular: false },
+        { name: "Eyebrow Wax", price: "R250", duration: "15 mins", popular: false },
+        { name: "Bikini Wax", price: "R400", duration: "20 mins", popular: false },
+        { name: "Brazilian Wax", price: "R550", duration: "30 mins", popular: true },
+        { name: "Full Leg Wax", price: "R650", duration: "45 mins", popular: false },
+        { name: "Full Face Wax", price: "R500", duration: "30 mins", popular: false },
       ],
     },
     {
       name: "Lash Extensions",
       link: "/treatments/lashes",
       treatments: [
-        { name: "Classic Lashes", price: "R450", duration: "120 mins", popular: true },
-        { name: "Hybrid Lashes", price: "R550", duration: "150 mins", popular: false },
-        { name: "Volume Lashes", price: "R650", duration: "180 mins", popular: false },
-        { name: "Mega Volume Lashes", price: "R750", duration: "210 mins", popular: false },
-        { name: "Lash Fill (2-3 weeks)", price: "R300", duration: "60 mins", popular: false },
+        { name: "Classic Lashes", price: "R550", duration: "120 mins", popular: true },
+        { name: "Hybrid Lashes", price: "R650", duration: "150 mins", popular: false },
+        { name: "Volume Lashes", price: "R750", duration: "180 mins", popular: false },
+        { name: "Mega Volume Lashes", price: "R850", duration: "210 mins", popular: false },
+        { name: "Lash Fill (2-3 weeks)", price: "R400", duration: "60 mins", popular: false },
       ],
     },
   ];
@@ -72,13 +72,13 @@ export default function PricingPage() {
   const packages = [
     {
       name: "Couples Retreat",
-      price: "R2,500",
+      price: "R2,600",
       duration: "2 hours",
       includes: ["Side-by-side Swedish massage", "Couples facial", "Champagne & chocolates"],
     },
     {
       name: "Bridal Shower Package",
-      price: "From R4,500",
+      price: "From R4,600",
       duration: "3-4 hours",
       includes: ["Bride deluxe treatment", "Mini facials for guests", "Manicures for all"],
     },
@@ -90,7 +90,7 @@ export default function PricingPage() {
     },
     {
       name: "Pamper Party",
-      price: "From R3,500",
+      price: "From R3,600",
       duration: "3 hours",
       includes: ["Choice of 2 treatments", "Mini facials or massages", "Manicure options"],
     },
@@ -173,7 +173,7 @@ export default function PricingPage() {
               <Gift className="h-12 w-12 text-primary mx-auto mb-4" />
               <h2 className="text-4xl font-heading font-bold mb-4">Spa Packages</h2>
               <p className="text-lg text-muted-foreground">
-                Save with our curated spa packages combining multiple treatments
+                Curated spa packages combining multiple treatments
               </p>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
@@ -221,15 +221,15 @@ export default function PricingPage() {
                     <ul className="space-y-2 text-sm text-muted-foreground">
                       <li className="flex justify-between">
                         <span>Relaxing Back Scrub</span>
-                        <span className="font-semibold text-foreground">R100</span>
+                        <span className="font-semibold text-foreground">R200</span>
                       </li>
                       <li className="flex justify-between">
                         <span>Hot Stone Upgrade</span>
-                        <span className="font-semibold text-foreground">R50</span>
+                        <span className="font-semibold text-foreground">R150</span>
                       </li>
                       <li className="flex justify-between">
                         <span>Extended Time (30 mins)</span>
-                        <span className="font-semibold text-foreground">R250</span>
+                        <span className="font-semibold text-foreground">R350</span>
                       </li>
                     </ul>
                   </div>
@@ -238,15 +238,15 @@ export default function PricingPage() {
                     <ul className="space-y-2 text-sm text-muted-foreground">
                       <li className="flex justify-between">
                         <span>Nail Art</span>
-                        <span className="font-semibold text-foreground">R50-150</span>
+                        <span className="font-semibold text-foreground">R150-250</span>
                       </li>
                       <li className="flex justify-between">
                         <span>Paraffin Treatment</span>
-                        <span className="font-semibold text-foreground">R100</span>
+                        <span className="font-semibold text-foreground">R200</span>
                       </li>
                       <li className="flex justify-between">
                         <span>French Manicure</span>
-                        <span className="font-semibold text-foreground">R50</span>
+                        <span className="font-semibold text-foreground">R150</span>
                       </li>
                     </ul>
                   </div>
@@ -275,7 +275,7 @@ export default function PricingPage() {
                   </div>
                   <div className="flex items-start gap-3">
                     <Sparkles className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                    <p>Group bookings and packages may qualify for special discounts</p>
+                    <p>Group bookings and custom packages quoted on request</p>
                   </div>
                   <div className="flex items-start gap-3">
                     <Sparkles className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />

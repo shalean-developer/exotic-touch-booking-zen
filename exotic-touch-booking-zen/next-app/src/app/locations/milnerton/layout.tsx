@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PageStructuredData from "@/components/PageStructuredData";
 
 export const metadata: Metadata = {
-  title: "Mobile Spa in Milnerton | Exotic Touch",
+  title: "Mobile Spa in Milnerton | Exotic Essence",
   description: "Luxury mobile spa services in Milnerton. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location.",
   keywords: ["mobile spa Milnerton", "spa Milnerton", "massage Milnerton", "home spa Milnerton"],
   alternates: {
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Mobile Spa in Milnerton | Exotic Touch",
+    title: "Mobile Spa in Milnerton | Exotic Essence",
     description: "Luxury mobile spa services in Milnerton. Professional treatments delivered to your location.",
     url: "https://exotictmspa.co.za/locations/milnerton",
     images: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mobile Spa in Milnerton | Exotic Touch",
+    title: "Mobile Spa in Milnerton | Exotic Essence",
     description: "Luxury mobile spa services in Milnerton.",
     images: ["/hero-spa.jpg"],
   },
@@ -52,7 +52,7 @@ export default function MilnertonLayout({
           { name: "Milnerton", url: "/locations/milnerton" },
         ]}
         pageType="ItemPage"
-        pageName="Mobile Spa in Milnerton | Exotic Touch"
+        pageName="Mobile Spa in Milnerton | Exotic Essence"
         pageDescription="Luxury mobile spa services in Milnerton. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location."
         pageUrl="/locations/milnerton"
       />

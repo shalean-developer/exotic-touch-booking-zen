@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PageStructuredData from "@/components/PageStructuredData";
 
 export const metadata: Metadata = {
-  title: "Corporate Wellness | Office Spa Services Cape Town | Exotic Touch",
+  title: "Corporate Wellness | Office Spa Services Cape Town | Exotic Essence",
   description: "Boost team morale and productivity with professional corporate wellness services. On-site chair massages, stress relief sessions, and team building spa experiences in Cape Town.",
   keywords: ["corporate spa Cape Town", "office massage", "corporate wellness programs", "on-site spa services", "team building spa", "corporate wellness Cape Town"],
   alternates: {
@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Corporate Wellness | Exotic Touch Mobile Spa",
+    title: "Corporate Wellness | Exotic Essence Mobile Spa",
     description: "Boost team morale and productivity with professional corporate wellness services.",
     url: "https://exotictmspa.co.za/corporate-wellness",
-    siteName: "Exotic Touch Mobile Spa",
+    siteName: "Exotic Essence Mobile Spa",
     images: [
       {
         url: "/hero-spa.jpg",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Corporate Wellness | Exotic Touch",
+    title: "Corporate Wellness | Exotic Essence",
     description: "Boost team morale and productivity with professional corporate wellness services.",
     images: ["/hero-spa.jpg"],
   },
@@ -53,7 +53,7 @@ export default function CorporateWellnessLayout({
           { name: "Corporate Wellness", url: "/corporate-wellness" },
         ]}
         pageType="WebPage"
-        pageName="Corporate Wellness | Exotic Touch Mobile Spa"
+        pageName="Corporate Wellness | Exotic Essence Mobile Spa"
         pageDescription="Boost team morale and productivity with professional corporate wellness services. On-site chair massages, stress relief sessions, and team building spa experiences."
         pageUrl="/corporate-wellness"
       />

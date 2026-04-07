@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Manicures & Pedicures | Exotic Touch",
+    title: "Manicures & Pedicures | Exotic Essence",
     description: "Professional nail care services delivered to your location in Cape Town. Gel overlays, deluxe treatments, and more.",
     url: "https://exotictmspa.co.za/treatments/manicures-pedicures",
     images: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Manicures & Pedicures | Exotic Touch",
+    title: "Manicures & Pedicures | Exotic Essence",
     description: "Professional nail care services delivered to your location in Cape Town.",
     images: ["/nails-treatment.jpg"],
   },
@@ -58,7 +58,7 @@ export default function ManicuresPedicuresLayout({
         serviceType="Nail Care Service"
         serviceName="Professional Manicure & Pedicure Services"
         serviceDescription="Gel overlays, deluxe treatments, and nail art delivered to your location in Cape Town"
-        servicePrice="350"
+        servicePrice="450"
         serviceImage="/nails-treatment.jpg"
       />
       {children}

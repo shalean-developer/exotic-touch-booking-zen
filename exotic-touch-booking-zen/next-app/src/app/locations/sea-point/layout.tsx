@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PageStructuredData from "@/components/PageStructuredData";
 
 export const metadata: Metadata = {
-  title: "Mobile Spa in Sea Point | Exotic Touch",
+  title: "Mobile Spa in Sea Point | Exotic Essence",
   description: "Luxury mobile spa services in Sea Point. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location.",
   keywords: ["mobile spa Sea Point", "spa Sea Point", "massage Sea Point", "home spa Sea Point"],
   alternates: {
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Mobile Spa in Sea Point | Exotic Touch",
+    title: "Mobile Spa in Sea Point | Exotic Essence",
     description: "Luxury mobile spa services in Sea Point. Professional treatments delivered to your location.",
     url: "https://exotictmspa.co.za/locations/sea-point",
     images: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mobile Spa in Sea Point | Exotic Touch",
+    title: "Mobile Spa in Sea Point | Exotic Essence",
     description: "Luxury mobile spa services in Sea Point.",
     images: ["/hero-spa.jpg"],
   },
@@ -52,7 +52,7 @@ export default function SeaPointLayout({
           { name: "Sea Point", url: "/locations/sea-point" },
         ]}
         pageType="ItemPage"
-        pageName="Mobile Spa in Sea Point | Exotic Touch"
+        pageName="Mobile Spa in Sea Point | Exotic Essence"
         pageDescription="Luxury mobile spa services in Sea Point. Professional massages, facials, manicures, pedicures, waxing & lashes delivered to your location."
         pageUrl="/locations/sea-point"
       />

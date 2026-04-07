@@ -15,7 +15,7 @@ export default function FacialsPage() {
     {
       name: "Superficial Facial",
       description: "Gentle cleansing and refreshing facial perfect for maintaining healthy skin. Includes cleanse, exfoliation, mask, and moisturize.",
-      price: 500,
+      price: 600,
       duration: 45,
       includes: ["Deep cleanse", "Light exfoliation", "Hydrating mask", "Face massage", "Moisturizer & SPF"],
       skinTypes: ["All skin types", "Sensitive skin friendly"]
@@ -23,7 +23,7 @@ export default function FacialsPage() {
     {
       name: "Deep Cleanse Facial",
       description: "Intensive treatment for congested skin and blackheads. Includes steam, extraction, and purifying mask to leave skin clear and refreshed.",
-      price: 600,
+      price: 700,
       duration: 60,
       includes: ["Steam therapy", "Deep pore cleansing", "Professional extractions", "Purifying mask", "Toner & moisturizer"],
       skinTypes: ["Oily skin", "Acne-prone", "Combination skin"]
@@ -31,7 +31,7 @@ export default function FacialsPage() {
     {
       name: "Anti-Aging Facial",
       description: "Luxurious anti-aging treatment targeting fine lines and wrinkles. Includes collagen mask, face massage, and premium serums.",
-      price: 750,
+      price: 850,
       duration: 75,
       includes: ["Collagen boost mask", "Anti-aging serums", "Facial massage", "Eye treatment", "Neck & décolleté care"],
       skinTypes: ["Mature skin", "All skin types"]

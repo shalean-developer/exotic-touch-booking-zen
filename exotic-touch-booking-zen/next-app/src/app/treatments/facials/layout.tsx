@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Facial Treatments | Exotic Touch",
+    title: "Facial Treatments | Exotic Essence",
     description: "Rejuvenate your skin with professional facial treatments delivered to your location in Cape Town.",
     url: "https://exotictmspa.co.za/treatments/facials",
     images: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Facial Treatments | Exotic Touch",
+    title: "Facial Treatments | Exotic Essence",
     description: "Rejuvenate your skin with professional facial treatments in Cape Town.",
     images: ["/facial-treatment.jpg"],
   },
@@ -58,7 +58,7 @@ export default function FacialsLayout({
         serviceType="Facial Treatment"
         serviceName="Professional Facial Treatments"
         serviceDescription="Superficial, Deep Cleanse, and Anti-Aging facials delivered to your location in Cape Town"
-        servicePrice="500"
+        servicePrice="600"
         serviceImage="/facial-treatment.jpg"
       />
       {children}

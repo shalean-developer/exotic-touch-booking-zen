@@ -2,7 +2,6 @@ import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
 import HowItWorksSection from "@/components/HowItWorksSection";
 import FeaturedTreatments from "@/components/FeaturedTreatments";
-import SpecialsSection from "@/components/SpecialsSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import WhatsAppStrip from "@/components/WhatsAppStrip";
 import Footer from "@/components/Footer";
@@ -25,10 +24,10 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Mobile Spa Treatments in Cape Town | Exotic Touch",
+    title: "Mobile Spa Treatments in Cape Town | Exotic Essence",
     description: "Professional mobile spa services delivered to your home in Cape Town. Massages, facials, manicures, pedicures, waxing & lashes. Same-day bookings available.",
     url: "https://exotictmspa.co.za",
-    siteName: "Exotic Touch Mobile Spa",
+    siteName: "Exotic Essence Mobile Spa",
     images: [
       {
         url: "/hero-spa.jpg",
@@ -42,7 +41,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mobile Spa Treatments in Cape Town | Exotic Touch",
+    title: "Mobile Spa Treatments in Cape Town | Exotic Essence",
     description: "Experience professional mobile spa services delivered to your home in Cape Town. Same-day bookings available.",
     images: ["/hero-spa.jpg"],
   },
@@ -56,7 +55,7 @@ export default function HomePage() {
           { name: "Home", url: "/" },
         ]}
         pageType="WebPage"
-        pageName="Mobile Spa Treatments in Cape Town | Exotic Touch"
+        pageName="Mobile Spa Treatments in Cape Town | Exotic Essence"
         pageDescription="Professional mobile spa services delivered to your home in Cape Town. Massages, facials, manicures, pedicures, waxing & lashes. Same-day bookings available."
         pageUrl="/"
       />
@@ -64,7 +63,6 @@ export default function HomePage() {
       <HeroSection />
       <HowItWorksSection />
       <FeaturedTreatments />
-      <SpecialsSection />
       <TestimonialsSection />
       <WhatsAppStrip />
       <Footer />
