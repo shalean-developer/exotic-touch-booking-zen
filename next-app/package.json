@@ -62,15 +62,15 @@
     "tailwindcss": "^3.4.17",
     "tailwindcss-animate": "^1.0.7",
     "vaul": "^0.9.9",
-    "zod": "^3.25.76"
-  },
-  "devDependencies": {
-    "@tailwindcss/typography": "^0.5.16",
+    "zod": "^3.25.76",
     "@types/node": "^22",
     "@types/react": "19.2.14",
     "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "^16.0.6",
     "typescript": "5.9.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.16",
+    "eslint": "^9",
+    "eslint-config-next": "^16.0.6"
   }
 }
